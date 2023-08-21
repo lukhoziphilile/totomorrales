@@ -1,0 +1,2457 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" class="touch">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<style id="customRules"></style>
+		<script async="" src="./index_files/sp-2.0.0-dm-0.1.min.js"></script>
+		<script type="text/javascript">
+			window._currentDevice = 'mobile';
+			    window.Parameters = window.Parameters || {
+			        AjaxContainer: 'div.dmBody',
+			        WrappingContainer: 'div.dmOuter',
+			        HomeUrl: 'https://totomorrales.multiscreensite.com/',
+			        AccountUUID: 'ddc7bc91784e4f13b8de81d3e475825e',
+			        SystemID: 'US_DIRECT_PRODUCTION',
+			        SiteAlias: '0d54c237',
+			        SiteType: atob('RFVEQU9ORQ=='),
+			        PublicationDate: 'Fri Aug 18 09:46:22 UTC 2023',
+			        ExternalUid: null,
+			        IsSiteMultilingual: false,
+			        InitialPostAlias: '',
+			        InitialDynamicItem: '',
+			        DynamicPageInfo: {
+			            isDynamicPage: false,
+			            base64JsonRowData: 'null',
+			        },
+			        InitialPageAlias: 'home',
+			        InitialPageUuid: '621374a110a84a3db5635d3546521e68',
+			        InitialPageId: '25781077',
+			        InitialEncodedPageAlias: 'aG9tZQ==',
+			        CurrentPageUrl: '',
+			        IsCurrentHomePage: true,
+			        AllowAjax: false,
+			        AfterAjaxCommand: null,
+			        HomeLinkText: 'Back To Home',
+			        UseGalleryModule: false,
+			        CurrentThemeName: 'Layout Theme',
+			        ThemeVersion: '10810',
+			        DefaultPageAlias: '',
+			        RemoveDID: true,
+			        WidgetStyleID: null,
+			        IsHeaderFixed: false,
+			        IsHeaderSkinny: false,
+			        IsBfs: true,
+			        StorePageAlias: 'category',
+			        StorePagesUrls: 'eyJTVE9SRV9QUk9EVUNUX1BBR0UiOiJwcm9kdWN0IiwiU1RPUkVfQ0hFQ0tPVVRfUEFHRSI6InN0b3JlLWNoZWNrb3V0IiwiU1RPUkVfU0VBUkNIX1BBR0UiOiJzdG9yZS1zZWFyY2giLCJTVE9SRV9DQVRFR09SWV9QQUdFIjoiY2F0ZWdvcnkiLCJTVE9SRV9GUk9OVF9QQUdFIjoiaG9tZSJ9',
+			        IsNewStore: 'true',
+			        StorePath: '/category',
+			        StoreId: '90997268',
+			        StoreVersion: 2,
+			        StoreBaseUrl: '/category',
+			        StoreCleanUrl: true,
+			        StoreDisableScrolling: true,
+			        IsStoreSuspended: false,
+			        NotificationSubDomain: 'null',
+			        HasCustomDomain: false,
+			        showCookieNotification: false,
+			        cookiesNotificationMarkup: 'null',
+			        translatedPageUrl: '',
+			        isFastMigrationSite: false,
+			        sidebarPosition: 'NA',
+			        currentLanguage: 'en',
+			        currentLocale: 'en',
+			        NavItems: '{}',
+			        errors: {
+			            general: 'There was an error connecting to the page.<br/> Make sure you are not offline.',
+			            password: 'Incorrect name/password combination',
+			            tryAgain: 'Try again'
+			        },
+			        NavigationAreaParams: {
+			            ShowBackToHomeOnInnerPages: true,
+			            NavbarSize: 5,
+			            NavbarLiveHomePage: 'https://totomorrales.multiscreensite.com/',
+			            BlockContainerSelector: '.dmBody',
+			            NavbarSelector: '#dmNav:has(a)',
+			            SubNavbarSelector: '#subnav_main'
+			        },
+			        hasCustomCode: false,
+			        planID: '7',
+			        customTemplateId: 'null',
+			        siteTemplateId: 'null',
+			        productId: 'DM_DIRECT',
+			        disableTracking: false,
+			        pageType: 'STORE_FRONT_PAGE',
+			        isRuntimeServer: true,
+			        isInEditor: false,
+			    };
+			
+			    window.Parameters.LayoutID = {};
+			    window.Parameters.LayoutID[window._currentDevice] = 22;
+			    window.Parameters.LayoutVariationID = {};
+			    window.Parameters.LayoutVariationID[window._currentDevice] = 5;
+		</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- Injecting site-wide to the head -->
+
+
+
+
+		<!-- End Injecting site-wide to the head -->
+
+		<!-- Inject secured cdn script -->
+
+
+		<!-- ========= Meta Tags ========= -->
+		<!-- PWA settings -->
+		<script>
+			function toHash(str) {
+        var hash = 5381, i = str.length;
+        while (i) {
+            hash = hash * 33 ^ str.charCodeAt(--i)
+        }
+        return hash >>> 0
+    }
+</script>
+		<script>
+			(function (global) {
+    //const cacheKey = global.cacheKey;
+    const isOffline = 'onLine' in navigator && navigator.onLine === false;
+    const hasServiceWorkerSupport = 'serviceWorker' in navigator;
+    if (isOffline) {
+        console.log('offline mode');
+    }
+    if (!hasServiceWorkerSupport) {
+        console.log('service worker is not supported');
+    }
+    if (hasServiceWorkerSupport && !isOffline) {
+        window.addEventListener('load', function () {
+            const serviceWorkerPath = '/runtime-service-worker.js?v=3';
+            navigator.serviceWorker
+                .register(serviceWorkerPath, { scope: './' })
+                .then(
+                    function (registration) {
+                        // Registration was successful
+                        console.log(
+                            'ServiceWorker registration successful with scope: ',
+                            registration.scope
+                        );
+                    },
+                    function (err) {
+                        // registration failed :(
+                        console.log('ServiceWorker registration failed: ', err);
+                    }
+                )
+                .catch(function (err) {
+                    console.log(err);
+                });
+        });
+
+        // helper function to refresh the page
+        var refreshPage = (function () {
+            var refreshing;
+            return function () {
+                if (refreshing) return;
+                // prevent multiple refreshes
+                var refreshkey = 'refreshed' + location.href;
+                var prevRefresh = localStorage.getItem(refreshkey);
+                if (prevRefresh) {
+                    localStorage.removeItem(refreshkey);
+                    if (Date.now() - prevRefresh < 30000) {
+                        return; // dont go into a refresh loop
+                    }
+                }
+                refreshing = true;
+                localStorage.setItem(refreshkey, Date.now());
+                console.log('refereshing page');
+                window.location.reload();
+            };
+        })();
+
+        function messageServiceWorker(data) {
+            return new Promise(function (resolve, reject) {
+                if (navigator.serviceWorker.controller) {
+                    var worker = navigator.serviceWorker.controller;
+                    var messageChannel = new MessageChannel();
+                    messageChannel.port1.onmessage = replyHandler;
+                    worker.postMessage(data, [messageChannel.port2]);
+                    function replyHandler(event) {
+                        resolve(event.data);
+                    }
+                } else {
+                    resolve();
+                }
+            });
+        }
+    }
+})(window);
+</script>
+		<!-- Add manifest -->
+		<!-- End PWA settings -->
+
+
+
+
+		<meta id="view" name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+
+		<!--Add favorites icons-->
+
+		<link rel="apple-touch-icon" type="image/x-icon" href="https://irp.cdn-website.com/0d54c237/site_favicon_16_1692351844762.ico">
+
+		<!-- End favorite icons -->
+
+		<link rel="preconnect" href="https://lirp.cdn-website.com/" crossorigin="">
+
+
+		<!-- Prefetch Ecwid Javascript to speed up loading -->
+		<link rel="prefetch" href="https://app.multiscreenstore.com/script.js?90997268">
+
+
+		<!-- render the required CSS and JS in the head section -->
+		<script>
+			window.SystemID = 'US_DIRECT_PRODUCTION';
+			
+			    if(!window.dmAPI) {
+			        window.dmAPI = {
+			            registerExternalRuntimeComponent: function() {
+			            },
+			            getCurrentDeviceType: function() {
+			                return window._currentDevice;
+			            }
+			        };
+			    }
+			
+			    if (!window.requestIdleCallback) {
+			        window.requestIdleCallback = function (fn) {
+			            setTimeout(fn, 0);
+			        }
+			    }
+		</script>
+		<!-- loadCSS function -->
+
+
+
+		<script id="d-js-load-css">
+			/**
+			 * There are a few <link> tags with CSS resource in them that are preloaded in the page
+			 * in each of those there is a "onload" handler which invokes the loadCSS callback
+			 * defined here.
+			 * We are monitoring 3 main CSS files - the runtime, the global and the page.
+			 * When each load we check to see if we can append them all in a batch. If threre
+			 * is no page css (which may happen on inner pages) then we do not wait for it
+			 */
+			(function () {
+			  let cssLinks = {};
+			  function loadCssLink(link) {
+			    link.onload = null;
+			    link.rel = "stylesheet";
+			    link.type = "text/css";
+			  }
+			  
+			    function checkCss() {
+			      const pageCssLink = document.querySelector("[id*='CssLink']");
+			
+			        if (cssLinks && cssLinks.runtime && cssLinks.global && (!pageCssLink || cssLinks.page)) {
+			            const storedRuntimeCssLink = cssLinks.runtime;
+			            const storedPageCssLink = cssLinks.page;
+			            const storedGlobalCssLink = cssLinks.global;
+			
+			            storedGlobalCssLink.disabled = true;
+			            loadCssLink(storedGlobalCssLink);
+			
+			            if (storedPageCssLink) {
+			                storedPageCssLink.disabled = true;
+			                loadCssLink(storedPageCssLink);
+			            }
+			
+			            storedRuntimeCssLink.disabled = true;
+			            loadCssLink(storedRuntimeCssLink);
+			
+			            requestAnimationFrame(() => {
+			                setTimeout(() => {
+			                    storedRuntimeCssLink.disabled = false;
+			                    storedGlobalCssLink.disabled = false;
+			                    if (storedPageCssLink) {
+			                      storedPageCssLink.disabled = false;
+			                    }
+			                    cssLinks = null;
+			                }, 0);
+			            });
+			        }
+			    }
+			  
+			
+			  function loadCSS(link) {
+			    try {
+			      var urlParams = new URLSearchParams(window.location.search);
+			      var noCSS = !!urlParams.get("nocss");
+			      var cssTimeout = urlParams.get("cssTimeout") || 0;
+			
+			      if (noCSS) {
+			        return;
+			      }
+			      if (link.href.includes("d-css-runtime")) {
+			        cssLinks.runtime = link;
+			        checkCss();
+			      } else if (link.id === "siteGlobalCss") {
+			        cssLinks.global = link;
+			        checkCss();
+			      } 
+			      
+			      else if(link.id.includes("CssLink")) {
+			        cssLinks.page = link;
+			        checkCss();
+			      }  
+			      
+			      else {
+			        requestIdleCallback(function () {
+			          window.setTimeout(function () {
+			            loadCssLink(link);
+			          }, parseInt(cssTimeout, 10));
+			        });
+			      }
+			    } catch (e) {
+			      throw e
+			    }
+			  }
+			  window.loadCSS = window.loadCSS || loadCSS;
+			})();
+		</script>
+
+		<script data-role="deferred-init" type="text/javascript">
+			/* usage: window.getDeferred(<deferred name>).resolve() or window.getDeferred(<deferred name>).promise.then(...)*/
+			    function Def(){this.promise=new Promise((function(a,b){this.resolve=a,this.reject=b}).bind(this))}
+			    const defs={};
+			    window.getDeferred=function(a){return null==defs[a]&&(defs[a]=new Def),defs[a]}
+			    window.waitForDeferred = function (b, a, c) {
+			      let d = window?.getDeferred?.(b);
+			      d
+			        ? d.promise.then(a)
+			        : c && ["complete", "interactive"].includes(document.readyState)
+			        ? setTimeout(a, 1)
+			        : c
+			        ? document.addEventListener("DOMContentLoaded", a)
+			        : console.error(`Deferred  does not exist`);
+			    };
+		</script>
+		<style id="forceCssIncludes">
+			/* This file is auto-generated from a `scss` file with the same name */
+			
+			.videobgwrapper{overflow:hidden;position:absolute;z-index:0;width:100%;height:100%;top:0;left:0;pointer-events:none;border-radius:inherit}.videobgframe{position:absolute;width:101%;height:100%;top:50%;left:50%;transform:translateY(-50%) translateX(-50%);object-fit:fill}#dm video.videobgframe{margin:0}@media (max-width:767px){.dmRoot .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:80vh}}@media (min-width:1025px){.dmRoot .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:45vh}}@media (min-width:768px) and (max-width:1024px){.responsiveTablet .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:45vh}}#dm [data-show-on-page-only]{display:none!important}
+		</style>
+		<style id="cssVariables" type="text/css">
+			:root {
+			  --color_1: rgba(0, 40, 68, 1);
+			  --color_2: rgba(255,255,255,1);
+			  --color_3: rgba(244, 122, 87, 1);
+			  --color_4: rgba(97, 122, 157, 1);
+			  --color_5: rgba(180, 211, 189, 1);
+			  --color_6: rgba(255,199,89,1);
+			  --color_7: rgba(254,247,228,1);
+			  --color_8: rgba(255, 255, 255, 1);
+			}
+		</style>
+
+
+		<style id="hideAnimFix">
+			.dmDesktopBody:not(.editGrid) [data-anim-desktop]:not([data-anim-desktop='none']), .dmDesktopBody:not(.editGrid) [data-anim-extended] {
+    visibility: hidden;
+  }
+  .dmDesktopBody:not(.editGrid) .dmNewParagraph[data-anim-desktop]:not([data-anim-desktop='none']), .dmDesktopBody:not(.editGrid) .dmNewParagraph[data-anim-extended] {
+    visibility: hidden !important;
+  }
+</style>
+
+
+
+		<style id="criticalCss">
+			@charset "UTF-8";[dmtemplateid*=amburger] .dmLayoutWrapper,svg:not(:root){overflow:hidden}@font-face{font-family:Jost;font-style:normal;font-weight:100;font-display:swap;src:url(https://irp.cdn-website.com/fonts/s/jost/v14/92zatBhPNqw73oTd4g.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:Jost;font-style:normal;font-weight:200;font-display:swap;src:url(https://irp.cdn-website.com/fonts/s/jost/v14/92zatBhPNqw73oTd4g.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:Jost;font-style:normal;font-weight:300;font-display:swap;src:url(https://irp.cdn-website.com/fonts/s/jost/v14/92zatBhPNqw73oTd4g.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:Prompt;font-style:normal;font-weight:400;font-display:swap;src:url(https://irp.cdn-website.com/fonts/s/prompt/v10/-W__XJnvUD7dzB2KYNod.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:Jost;font-style:normal;font-weight:400;font-display:swap;src:url(https://irp.cdn-website.com/fonts/s/jost/v14/92zatBhPNqw73oTd4g.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:Prompt;font-style:normal;font-weight:500;font-display:swap;src:url(https://irp.cdn-website.com/fonts/s/prompt/v10/-W_8XJnvUD7dzB2Ck_kIaWMu.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:Prompt;font-style:italic;font-weight:500;font-display:swap;src:url(https://irp.cdn-website.com/fonts/s/prompt/v10/-W_6XJnvUD7dzB2KZeLsbVMsW5A.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:Jost;font-style:normal;font-weight:500;font-display:swap;src:url(https://irp.cdn-website.com/fonts/s/jost/v14/92zatBhPNqw73oTd4g.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:Jost;font-style:normal;font-weight:600;font-display:swap;src:url(https://irp.cdn-website.com/fonts/s/jost/v14/92zatBhPNqw73oTd4g.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:Prompt;font-style:normal;font-weight:700;font-display:swap;src:url(https://irp.cdn-website.com/fonts/s/prompt/v10/-W_8XJnvUD7dzB2C2_8IaWMu.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:Jost;font-style:normal;font-weight:700;font-display:swap;src:url(data:font/woff2;base64,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) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:Jost;font-style:normal;font-weight:800;font-display:swap;src:url(https://irp.cdn-website.com/fonts/s/jost/v14/92zatBhPNqw73oTd4g.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:Jost;font-style:normal;font-weight:900;font-display:swap;src:url(https://irp.cdn-website.com/fonts/s/jost/v14/92zatBhPNqw73oTd4g.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}:root{--color_1:rgba(0, 40, 68, 1);--color_2:rgba(255,255,255,1);--color_3:rgba(244, 122, 87, 1);--color_4:rgba(97, 122, 157, 1);--color_5:rgba(180, 211, 189, 1);--color_6:rgba(255,199,89,1);--color_7:rgba(254,247,228,1);--color_8:rgba(255, 255, 255, 1)}.dmInner{min-height:100vh!important;position:relative}.dmPopup,.dmPopupMask{position:fixed;left:0}#dmRoot.dmMobileBody #dm .dmOuter :not(.dmInner){background-attachment:scroll!important}@media (hover:none) and (pointer:coarse){#dmRoot #dm .dmOuter :not(.dmInner){background-attachment:scroll!important}}#dm .dmWidget .icon{font-size:26px}body.dmRoot #dm .dmOuter .dmInner .dmWidget .icon.hasFontIcon{height:26px;margin-top:-13px;line-height:normal;text-align:center;background-image:none}.dmRoot .hasFontIcon{background-image:none!important}.dmPopupMask{margin:0;display:none;width:10px;z-index:1000000999;top:0}#dmRoot .dmPopup,.dmPopup,.dmPopupClose:before,[data-display-type=block]{display:block}.dmPopup{padding:10px;text-align:left;margin:0 10px;top:10px;width:93%;z-index:1000009999!important;box-sizing:border-box;background:#f5f5f5;overflow-y:auto;height:100%}.dmPopup .dmPopupTitle{text-align:left;font:700 19px Helvetica,Arial;margin:20px 20px 35px;color:#999}#dmPopup{opacity:0}.dmPopupClose,.dmPopupClose:before{position:absolute;visibility:visible}.dmPopupClose{border-radius:25px;width:27px;height:27px;z-index:1;background-color:rgba(255,255,255,.4);top:12px;right:12px}.dmPopupClose:before{font-size:20px;color:#000;top:3px;right:3px}#dm .dmBackToTop{position:fixed!important}.dmRespRow.fullBleedMode>.dmRespColsWrapper{width:100%!important;max-width:100%!important}.dmRespRow.fullBleedMode{padding-left:0!important;padding-right:0!important}#dm .dmRespRow .dmRespColsWrapper{display:flex}.dmMobileBody #dm .dmRespRow .dmRespColsWrapper{flex-wrap:wrap}.pswp{display:none;z-index:9999999999!important}#dm .dmInner .dmWidget.align-center,.align-center{margin-left:auto;margin-right:auto}.text-align-center{text-align:center}body.fix-mobile-scrolling{overflow:initial}#dmRoot{text-decoration-skip-ink:none}@media (max-width:767px){#dmRoot.responsiveTablet #dm .dmInner .hide-for-small{display:none!important}}body{-webkit-overflow-scrolling:touch}:not(.runtime-module-container) .layout-drawer,:not(.runtime-module-container) .layout-drawer-hamburger,:not(.runtime-module-container) .layout-drawer-overlay{visibility:hidden}:not(.runtime-module-container) .layout-drawer{position:fixed;transform:translate(-100%,-100%)}:not(.runtime-module-container) .layout-drawer-overlay{opacity:0}.runtime-module-container{width:100%}.runtime-module-container[dmtemplateid*=amburger] #site_content,.runtime-module-container[dmtemplateid*=amburger] .dmInner{position:static}.runtime-module-container[dmtemplateid*=amburger] #site_content .site_content{position:relative}.runtime-module-container[dmtemplateid*=amburger] .dmLayoutWrapper{background-color:transparent}.runtime-module-container .hamburger-header-container{position:fixed;z-index:2;top:0;left:0;width:100%}.runtime-module-container .hamburger-header-container .hamburger-header{min-height:43px}.runtime-module-container .layout-drawer,.runtime-module-container .layout-drawer-hamburger,.runtime-module-container .layout-drawer-overlay{visibility:visible}.runtime-module-container[dmtemplateid*=amburger] .site_content{margin-top:59px}.runtime-module-container .layout-drawer,.runtime-module-container .layout-drawer-overlay{height:100%;position:fixed;top:0;left:0}.runtime-module-container .layout-drawer{background-color:#fff;width:75vw;transform:translate(-100%,0);overflow:auto;-webkit-overflow-scrolling:auto;z-index:13;display:flex;flex-direction:column}.runtime-module-container .layout-drawer .dmRespRow:not(.dmPlaceHolderRespRow) .dmRespColsWrapper .dmRespCol:not(.content-removed):only-child:empty{min-height:0}.runtime-module-container .layout-drawer[data-origin=side]{width:75vw}.runtime-module-container .layout-drawer-overlay{width:100vw;background-color:rgba(0,0,0,.4);opacity:0;z-index:6}body:not([data-flex-site]) .layout-drawer .dmRespRow:not(:first-of-type):not(:last-of-type){flex:1 1 auto}.layout-drawer-hamburger{position:fixed;left:18px;margin-left:env(safe-area-inset-left);padding:17px 11px;z-index:13;width:52px;height:52px;background-color:transparent;color:#787878;display:flex;flex-direction:column;border:0;justify-content:space-between;align-items:stretch;outline:0;top:18px;border-radius:0}.layout-drawer-hamburger .hamburger__slice{display:block;height:0;width:100%;border:1px solid currentColor;transform-origin:center}@media (max-width:767px){.layout-drawer-hamburger{position:fixed;left:10px;margin-left:env(safe-area-inset-left);padding:13px 9px;z-index:13;width:40px;height:40px;background-color:transparent;color:#787878;display:flex;flex-direction:column;border:0;justify-content:space-between;align-items:stretch;outline:0;top:10px;border-radius:0}.layout-drawer-hamburger .hamburger__slice{display:block;height:0;width:100%;border:1px solid currentColor;transform-origin:center}}@media (min-width:1025px){:root{--btn-text-font-size:15px}}@media (min-width:768px) and (max-width:1024px){:root{--btn-text-font-size:15px}}#dm-outer-wrapper #hamburger-header-container #mobile-hamburger-header .dmRespRow .dmRespCol{display:flex;flex-direction:column;justify-content:center}nav{display:block}html{font-family:Source Sans Pro;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}h1{font-size:2em;margin:.67em 0}img{border:0;max-width:100%;-ms-interpolation-mode:bicubic;display:inline-block}button{font-family:inherit;font-size:100%;margin:0;line-height:normal;text-transform:none;-webkit-appearance:button}button::-moz-focus-inner{border:0;padding:0}*,:after,:before{box-sizing:border-box}.dmMobileBody .dmRespCol .dmRespRow .dmRespCol.small-12{padding:0}.dmRespRow{padding-top:15px;padding-bottom:15px}.dmRespRow .dmRespRow:after,.dmRespRow .dmRespRow:before,.dmRespRow:after,.dmRespRow:before{content:' ';display:table}.dmRespRow .dmRespRow:after,.dmRespRow:after{clear:both}.dmRespRow,.dmRespRow .dmRespColsWrapper{max-width:960px;position:relative;margin:0 auto;width:100%}@media screen and (min-width:1200px){.rows-1200 .dmRespRow:not(.fullBleedMode) .dmRespColsWrapper{max-width:1200px}}.dmRespRow .dmRespCol{position:relative;width:100%;display:inline-block;vertical-align:top;float:left}.dmRespRow .dmRespCol>*{max-width:100%}.dmRespRow .dmRespRow{width:auto;margin-top:0;margin-bottom:0;max-width:none}.dmMobileBody .dmRespRow .dmRespCol{position:relative;padding-left:15px;padding-right:15px;float:left}.dmMobileBody .dmRespRow .small-2{position:relative;width:16.66667%}.dmMobileBody .dmRespRow .small-4{position:relative;width:33.33333%}.dmMobileBody .dmRespRow .small-8{position:relative;width:66.66667%}.dmMobileBody .dmRespRow .small-12{position:relative;width:100%}[class*=' dm-common-icons-']{speak:none;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-family:dm-common-icons!important}.dm-common-icons-close:before{content:'\e901'}#dm div.dmContent [class*=' icon-'],[class*=' icon-']{font-family:FontAwesome!important;font-weight:400;font-style:normal;text-decoration:inherit;-webkit-font-smoothing:antialiased}[class*=' icon-']:before{text-decoration:none;display:inline-block;speak:none}a [class*=' icon-']{display:inline}[class*=' icon-']{display:inline;width:auto;height:auto;line-height:normal;vertical-align:baseline;background-image:none;background-position:0 0;background-repeat:repeat;margin-top:0}.icon-star:before{content:'\f005'}.icon-angle-down:before{content:'\f107'}#dm .dmRespRow .dmRespCol>.dmWidget{overflow:initial}.dmLayoutWrapper.dmStandardMobile,body{overflow:hidden}@media (min-width:768px){#dm .dmRespRow .dmRespCol>.dmWidget{width:280px;max-width:100%}}@media (max-width:767px){#dm .dmInner .dmWidget{width:100%}}#dm .dmInner .dmWidget:not(.displayNone){display:inline-block}#dm .dmInner .dmWidget:not(.displayNone)[data-display-type=block]{display:block}#dm .dmInner .dmWidget{text-decoration:none;margin:10px 0;clear:both;position:relative;text-align:center;line-height:22px;box-shadow:none;background-image:none;padding:0;height:auto;border-style:solid;white-space:nowrap}#dm .dmInner .dmWidget:after{content:'';display:inline-block;height:100%;vertical-align:middle;width:0;margin-right:-.25em}#dm .dmInner .dmWidget .iconBg{position:absolute;left:0;width:50px;top:50%;margin-top:-13px}#dm .dmWidget .text{display:inline-block;vertical-align:middle;font-size:1.125em;line-height:normal;white-space:normal;padding:10px 7px;max-width:98%}#dm .dmInner #fcontainer .hide-for-small,.hide-for-small{display:none!important}@supports (padding:0px){.dmMobileBody .dmRespColsWrapper{padding-left:env(safe-area-inset-left)!important;padding-right:env(safe-area-inset-right)!important}}.graphicWidget{width:200px;height:200px;margin:10px auto;text-align:center}.graphicWidget svg.svg{width:100%;height:100%;color:#000;fill:#000}.dmNewParagraph[data-version]{line-height:initial}.dmNewParagraph[data-version] .text-align-center{text-align:center!important}.dmMobileBody .imageWidget,.imageWidget a{text-align:center}.dmNewParagraph[data-version] h1,.dmNewParagraph[data-version] p{margin-top:0;margin-bottom:0}.dmNewParagraph[data-version] a{vertical-align:initial}.imageWidget a{font-style:italic}.imageWidget img[width][height],img[width][height]{height:auto}*{border:0 solid #333;scrollbar-arrow-color:#fff;scrollbar-track-color:#F2F2F2;scrollbar-face-color:silver;scrollbar-highlight-color:silver;scrollbar-3dlight-color:silver;scrollbar-shadow-color:silver;scrollbar-darkshadow-color:silver;scrollbar-width:12px}body{width:100%;-webkit-text-size-adjust:100%!important;-ms-text-size-adjust:100%!important}A IMG{border:none}h1,ul{margin-left:0;margin-right:0}.dmInner *{-webkit-font-smoothing:antialiased}a,img,li,ul{vertical-align:top}#site_content{position:relative}.dmOuter{word-wrap:break-word}.dmInner{font-size:16px;background:#fff;color:#666}.dmInner a{color:#463939;outline:0;vertical-align:inherit}.dmInner ul:not(.defaultList){padding:0}DIV.dmBody{padding:0;clear:both}.dmContent{margin:0;padding:0}#site_content ul:not(.defaultList){-webkit-padding-start:0;-moz-padding-start:0;list-style-position:inside}.dmRespRowsWrapper{max-width:960px;margin:0 auto}.imageWidget:not(.displayNone) img{width:100%}#dm .dmRespColsWrapper{display:block}.dmNewParagraph{text-align:left;margin:8px 0;padding:2px 0}.dmLinksMenu>ul{display:block;margin:0;font-size:inherit}.dmRespRow:not(.dmPlaceHolderRespRow) .dmRespColsWrapper .dmRespCol:not(.content-removed).empty-column,.dmRespRow:not(.dmPlaceHolderRespRow) .dmRespColsWrapper .dmRespCol:not(.content-removed):only-child:empty{min-height:100px}.dmMobileBody .hamburger-header .dmRespRow:not(.dmPlaceHolderRespRow) .dmRespColsWrapper .dmRespCol:not(.content-removed).empty-column{min-height:55px}.dmRespRow:not(.dmPlaceHolderRespRow) .dmRespCol:not(.content-removed).empty-column,.dmRespRow:not(.dmPlaceHolderRespRow) .dmRespCol:not(.content-removed):empty{min-height:1px}.dmMobileBody .hamburger-drawer .dmRespRow:not(.dmPlaceHolderRespRow):first-child .dmRespColsWrapper .dmRespCol:not(.content-removed):only-child.empty-column,.dmMobileBody .hamburger-drawer .dmRespRow:not(.dmPlaceHolderRespRow):first-child .dmRespColsWrapper .dmRespCol:not(.content-removed):only-child:empty,.dmMobileBody .hamburger-drawer .dmRespRow:not(.dmPlaceHolderRespRow):last-child .dmRespColsWrapper .dmRespCol:not(.content-removed):only-child.empty-column,.dmMobileBody .hamburger-drawer .dmRespRow:not(.dmPlaceHolderRespRow):last-child .dmRespColsWrapper .dmRespCol:not(.content-removed):only-child:empty{min-height:0!important}.dmRespRow:not(.dmPlaceHolderRespRow) .dmRespColsWrapper .dmRespCol:not(.content-removed):only-child.empty-column{min-height:100px}#dm .dmBackToTop{width:30px;height:30px;opacity:0;background:rgba(0,0,0,.6);z-index:200;bottom:10px;right:10px;border:1px solid #fff;-moz-box-shadow:0 0 1px rgba(247,247,247,.4);-webkit-box-shadow:0 0 1px rgba(247,247,247,.4);box-shadow:0 0 1px rgba(247,247,247,.4)}#dm .dmBackToTop:after,#dm .dmBackToTop:before{content:'';position:absolute;width:4px;height:15px;background:#fff;border-radius:2px;left:8px;top:6px;transform:rotate(45deg)}#dm .dmBackToTop:after{left:16px;transform:rotate(-45deg)}body{background-color:#eee}.main-navigation.unifiednav{display:flex;justify-content:flex-start;align-items:stretch;overflow:visible}.main-navigation.unifiednav ul{list-style:none;padding:0;margin:0;font-size:1rem}.main-navigation.unifiednav .unifiednav__container{display:flex;justify-content:flex-start;list-style:none}.main-navigation.unifiednav .unifiednav__container>.unifiednav__item-wrap{display:flex;justify-content:flex-start;position:relative;font-weight:400}.main-navigation.unifiednav .unifiednav__container:not([data-depth])>.unifiednav__item-wrap::after,.main-navigation.unifiednav .unifiednav__container:not([data-depth])>.unifiednav__item-wrap::before{content:'';-ms-grid-row-align:center;align-self:center;font-weight:700}.main-navigation.unifiednav .unifiednav__container>.unifiednav__item-wrap>.unifiednav__item{display:flex;justify-content:flex-start;align-items:center;flex-direction:row;color:inherit;text-decoration:none;position:relative;padding:12px 15px;margin:0;font-weight:inherit;letter-spacing:.03em}.main-navigation.unifiednav .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item{padding:0 15px}.main-navigation.unifiednav .unifiednav__container>.unifiednav__item-wrap>.unifiednav__item .nav-item-text{white-space:nowrap}.main-navigation.unifiednav .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item .nav-item-text::after,.main-navigation.unifiednav .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item .nav-item-text::before{content:'';width:100%;height:0;border:0 solid transparent;border-top-color:currentColor;display:block;opacity:0}#dm .dmOuter .dmInner .dmWidget[data-buttonstyle=BORDER_SHORT] .iconBg,.main-navigation.unifiednav .unifiednav__container .unifiednav__item:not(.unifiednav__item_has-sub-nav) .icon{display:none}.main-navigation.unifiednav.effect-text-color{padding:12px 15px}.main-navigation.unifiednav:not(.unifiednav_vertical)>.unifiednav__container{justify-content:inherit}#dm .p_hfcontainer nav.main-navigation.unifiednav{min-width:9em!important;text-align:initial!important}#dm .main-navigation.unifiednav[data-nav-structure=VERTICAL] .unifiednav__container{flex-direction:column;flex:1 1 100%}#dm .main-navigation.unifiednav[data-nav-structure=VERTICAL] .unifiednav__container>.unifiednav__item-wrap>.unifiednav__item{padding:8px 0;margin:0}#dm .main-navigation.unifiednav[data-nav-structure=VERTICAL] .unifiednav__container>.unifiednav__item-wrap>.unifiednav__item .nav-item-text{white-space:initial}#dm .main-navigation.unifiednav[data-nav-structure=VERTICAL] .unifiednav__container:not([data-depth])>.unifiednav__item-wrap{flex-direction:column}#dm .main-navigation.unifiednav[data-nav-structure=VERTICAL] .unifiednav__container:not([data-depth])>.unifiednav__item-wrap::after{content:''!important;width:100%;height:0;color:#d1d1d1;align-self:flex-start;border:0 solid currentColor}#dm .main-navigation.unifiednav[data-nav-structure=VERTICAL][layout-main=vertical_nav_layout_4] .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item{padding:8px 0}.dmMobileBody #dm .main-navigation.unifiednav .nav-item-text{position:relative}#dm .dmBody .dmRespRowsWrapper{max-width:none;background-color:transparent}.dm-bfs.dm-layout-home div.dmInner{background-color:#fff}#dm div.dmContent h1{color:#666;color:rgba(100,100,100,1)}#dm div.dmRespCol>*{line-height:normal}#dm div.dmInner{line-height:initial}#dm div.dmInner h1{font-family:Montserrat}#dm div.dmOuter div.dmInner{background-position:center center;background-repeat:repeat;background-size:auto}#dm .dmNewParagraph a,#dm div.dmNewParagraph a{text-decoration:underline;color:rgba(147,147,147,1)}#dm div.dmInner,#dm div.dmInner .dmRespCol{color:rgba(147,147,147,1);font-family:Roboto;font-size:15px}#dm .dmRespCol div.dmNewParagraph,#dm div.dmInner,#dm div.dmInner .dmRespCol{font-family:Prompt;color:rgba(0,0,0,1);font-weight:500}#dm div.dmContent h1{color:var(--color_1);direction:ltr;font-family:Jost;font-weight:700;font-style:normal;text-decoration:none;line-height:initial;font-size:36px}#dm div.dmContent .dmNewParagraph[data-version] h1{text-decoration:inherit}#dm div.dmContent .dmNewParagraph[data-version] h1 *{text-decoration:none}#dm .dmNewParagraph a,#dm div.dmNewParagraph a{color:var(--color_3)}#dm DIV.dmInner{background-repeat:no-repeat;background-image:url(https://lirp.cdn-website.com/md/dmtmpl/9f30e8a8-4541-48fa-8b3c-8fa6c5fe8524/dms3rep/multi/opt/site_background_education-2087x1173-640w.jpg);background-size:cover;background-position:50% 0}#dm .d-page-1716942098 DIV.dmInner,#dm .dmBody div.u_1802358902{background-repeat:no-repeat!important;background-size:cover!important}.dmMobileBody .dmLayoutWrapper{background-color:transparent}#dm DIV.dmOuter DIV.dmInner{background-image:none;background-color:var(--color_2)}@media all{:root{--btn-border-l-color:var(--color_1);--btn-border-r-color:var(--color_1);--btn-text-direction:ltr;--btn-border-b-width:var(--btn-border-width);--btn-border-width:2px;--btn-border-radius:0px;--btn-border-t-width:var(--btn-border-width);--btn-border-tl-radius:var(--btn-border-radius);--btn-border-br-radius:var(--btn-border-radius);--btn-border-bl-radius:var(--btn-border-radius);--btn-bg-color:var(--color_1);--btn-border-tr-radius:var(--btn-border-radius);--btn-border-r-width:var(--btn-border-width);--btn-border-b-color:var(--color_1);--btn-border-l-width:var(--btn-border-width);--btn-border-t-color:var(--color_1);--btn-text-align:center;--btn-text-color:var(--color_2);--btn-text-decoration:none;--btn-text-font-weight:700;--btn-icon-color:rgb(247, 247, 247);--btn-icon-fill:rgb(247, 247, 247);--btn-icon-wrpr-display:none;--btn-hover-border-b-color:var(--btn-hover-border-color);--btn-hover-bg:var(--color_2);--btn-hover-border-t-color:var(--btn-hover-border-color);--btn-hover-border-r-color:var(--btn-hover-border-color);--btn-hover-border-l-color:var(--btn-hover-border-color);--btn-hover-border-color:var(--color_1);--btn-hover-text-color:var(--color_1);--btn-hover-text-font-weight:var(--btn-text-font-weight);--btn-hover-text-decoration:var(--btn-text-decoration);--btn-hover-text-font-style:var(--btn-text-font-style)}}@media (min-width:0px) and (max-width:767px){:root{--btn-text-font-size:15px}}#dm .dmOuter .dmInner .dmWidget[data-buttonstyle=BORDER_SHORT]{overflow:initial;background-clip:border-box;border-radius:1px}#dm .dmOuter .dmInner .dmWidget[data-buttonstyle=BORDER_SHORT] .text{padding:16px 0}@media (min-width:768px){#dm .dmRespRow .dmRespCol>.dmWidget,#dm .dmRespRow .dmRespCol>.dmWidget[data-buttonstyle=BORDER_SHORT]{width:222px}}#dm div.dmInner #site_content .dmWidget{background-color:var(--btn-bg-color);border-color:var(--btn-border-color);border-bottom-color:var(--btn-border-b-color);border-left-color:var(--btn-border-l-color);border-right-color:var(--btn-border-r-color);border-top-color:var(--btn-border-t-color);border-radius:var(--btn-border-radius);border-bottom-left-radius:var(--btn-border-bl-radius);border-bottom-right-radius:var(--btn-border-br-radius);border-top-left-radius:var(--btn-border-tl-radius);border-top-right-radius:var(--btn-border-tr-radius);border-width:var(--btn-border-width);border-bottom-width:var(--btn-border-b-width);border-left-width:var(--btn-border-l-width);border-right-width:var(--btn-border-r-width);border-top-width:var(--btn-border-t-width);direction:var(--btn-text-direction);text-align:var(--btn-text-align)}#dm div.dmInner #site_content .dmWidget span.text{color:var(--btn-text-color);font-size:var(--btn-text-font-size);font-weight:var(--btn-text-font-weight);text-decoration:var(--btn-text-decoration)}#dm div.dmInner #site_content .dmWidget span.icon{color:var(--btn-icon-color);fill:var(--btn-icon-fill)}#dm .p_hfcontainer .main-navigation.unifiednav:not(.unifiednav_vertical) .unifiednav__container:not([data-depth])>.unifiednav__item-wrap:not(:last-child)::after,#dm .p_hfcontainer .main-navigation.unifiednav:not(.unifiednav_vertical) .unifiednav__container:not([data-depth])>.unifiednav__item-wrap:not(:last-child)::before{font-size:14px!important}#dm .p_hfcontainer div.u_1868084785 img{border-radius:0!important;-moz-border-radius:0!important;-webkit-border-radius:0!important}#dm .p_hfcontainer div.u_1562072651 .svg{color:var(--color_1)!important;fill:var(--color_1)!important}#dm .p_hfcontainer .u_1868084785{width:100%!important}#dm .p_hfcontainer .u_1766685946.main-navigation.unifiednav .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item{padding-top:7px!important;padding-bottom:7px!important}#dm .p_hfcontainer nav.u_1766685946.main-navigation.unifiednav .unifiednav__container:not([data-depth])>.unifiednav__item-wrap>.unifiednav__item{font-weight:400!important;color:rgba(39,42,47,1)!important;font-size:16px!important}#dm .p_hfcontainer div#mobile-hamburger-header{background-color:var(--color_2)!important;padding-top:0!important;padding-bottom:0!important;box-shadow:none!important;-moz-box-shadow:none!important;-webkit-box-shadow:none!important;border-style:solid!important;border-width:0!important}[dmtemplateid=mobileHamburgerLayout] .layout-drawer-hamburger.hamburger-on-header{color:var(--color_1)!important;background-color:rgba(0,0,0,0)!important}#dm .p_hfcontainer div.u_1586257764{width:auto!important;padding:15px 0!important;margin:0!important}[dmtemplateid=mobileHamburgerLayout].runtime-module-container .layout-drawer-hamburger{top:25.25px!important}[dmtemplateid=mobileHamburgerLayout] .site_content{margin-top:90.5px!important}#dm .p_hfcontainer div.u_1948219590{margin:0!important;padding:0 0 0 25px!important}#dm .p_hfcontainer #mobile-hamburger-header{background-color:var(--color_2)!important}.responsiveTablet [dmtemplateid=mobileHamburgerLayout].runtime-module-container .layout-drawer-hamburger{top:22.5px!important}#dm .p_hfcontainer div.u_1562072651,#dm .p_hfcontainer div.u_1868084785{float:none!important;top:0!important;left:0!important;position:relative!important;min-width:25px!important;text-align:center!important;display:block!important}.responsiveTablet [dmtemplateid=mobileHamburgerLayout] .site_content{margin-top:85px!important}#dm .p_hfcontainer div.u_1136817614{margin-left:0!important;margin-right:0!important;padding-left:0!important;padding-right:0!important;text-align:center!important}#dm .p_hfcontainer div.u_1159861552{padding-right:10px!important;padding-left:10px!important;margin-left:0!important;margin-right:0!important;text-align:center!important}#dm .p_hfcontainer div.u_1216230641{text-align:center!important;margin:0!important;padding:0 0 0 10px!important}#dm .p_hfcontainer div.u_1562072651{width:28px!important;height:28px!important;max-width:calc(100% - 10px)!important;padding:0!important;margin:0 10.83px 0 0!important}#dm .p_hfcontainer div.u_1868084785{width:101px!important;max-width:100%!important;height:auto!important;padding:0!important;margin:0!important}[dmtemplateid=mobileHamburgerLayout] div.layout-drawer-overlay{background-color:rgba(0,0,0,.4)!important}#dm .p_hfcontainer #mobile-hamburger-drawer.layout-drawer:not([data-origin=top]){width:75vw!important}#dm .p_hfcontainer div#mobile-hamburger-drawer.layout-drawer{background-color:rgba(255,255,255,1)!important}#dm .p_hfcontainer div.u_1335552214,#dm .p_hfcontainer div.u_1760561962{margin:0!important;padding:0!important}#dm .p_hfcontainer div.u_1513773475{padding:0!important;margin:0!important}#dm .p_hfcontainer div.u_1833579682{margin:0!important;padding:20px!important}#dm .p_hfcontainer div.u_1330394287{padding-top:80px!important;padding-right:20px!important;padding-left:20px!important}#dm .dmBody a.u_1884609827,#dm .p_hfcontainer nav.u_1766685946{float:none!important;top:0!important;left:0!important;position:relative!important;min-width:25px!important;padding:0!important}#dm .p_hfcontainer nav.u_1766685946{width:100%!important;height:auto!important;max-width:calc(100% - 0px)!important;justify-content:flex-start!important;align-items:stretch!important;text-align:start!important;margin:0!important}#dm .dmBody div.u_1129315175{line-height:normal!important}#dm .dmBody .u_1342911421,#dm .dmBody .u_1532090808,#dm .dmBody .u_1533187637,#dm .dmBody .u_1570989422,#dm .dmBody .u_1676339264,#dm .dmBody .u_1728615519{width:100%!important}#dm .dmBody a.u_1884609827 .iconBg{display:none!important}#dm .dmBody a.u_1884609827{border-radius:0!important;-moz-border-radius:0!important;-webkit-border-radius:0!important;background-color:rgba(0,0,0,1)!important;border-style:solid!important;border-width:0!important;width:225px!important;height:58px!important;max-width:calc(100% - 25px)!important;text-align:center!important;margin:20px auto 10px!important}#dm .dmBody a.u_1884609827 span.text{color:var(--color_2)!important;font-size:18px!important}#dm .dmBody div.u_1802358902{background-image:url(https://lirp.cdn-website.com/md/pexels/dms3rep/multi/opt/pexels-photo-7396522-640w.jpeg),url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAABhGlDQ1BJQ0MgcHJvZmlsZQAAKJF9kT1Iw0AcxV9TpUUqHSwo4pChOlkQFemoVShChVArtOpgcukXNGlIUlwcBdeCgx+LVQcXZ10dXAVB8APEzc1J0UVK/F9aaBHjwXE/3t173L0DhEaFaVbPBKDptplOJsRsblUMvEJAGEEMIi4zy5iTpBQ8x9c9fHy9i/Es73N/jn41bzHAJxLPMsO0iTeIZzZtg/M+cYSVZJX4nHjcpAsSP3JdafEb56LLAs+MmJn0PHGEWCx2sdLFrGRqxNPEUVXTKV/ItljlvMVZq9RY+578haG8vrLMdZojSGIRS5AgQkENZVRgI0arToqFNO0nPPzDrl8il0KuMhg5FlCFBtn1g//B726twtRkKymUAHpfHOdjFAjsAs2643wfO07zBPA/A1d6x19tAPFP0usdLXoEhLeBi+uOpuwBlzvA0JMhm7Ir+WkKhQLwfkbflAMGboG+tVZv7X2cPgAZ6ip1AxwcAmNFyl73eHewu7d/z7T7+wFwJnKmZ9+MiwAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAAuIwAALiMBeKU/dgAAAAd0SU1FB+UCDwksLkLIPkkAAAAZdEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIEdJTVBXgQ4XAAAAC0lEQVQI12NgAAIAAAUAAeImBZsAAAAASUVORK5CYII=)!important;padding-top:110px!important;padding-bottom:110px!important;background-position:0 0!important}.font-size-16,.size-16{font-size:16px!important}.font-size-14,.size-14{font-size:14px!important}.dmMobileBody .m-font-size-13,.dmMobileBody .m-size-13{font-size:13px!important}.dmMobileBody .m-font-size-11,.dmMobileBody .m-size-11{font-size:11px!important}
+    .dmDesktopBody [data-anim-desktop]:not([data-anim-desktop='none']) {
+      visibility: hidden;
+    }
+    
+</style>
+
+
+
+
+		<!-- End render the required css and JS in the head section -->
+
+
+
+
+		<meta property="og:type" content="website">
+		<title>
+
+			Morrales Hasta -70% Off | Morrales Desde $19.900
+
+		</title>
+		<meta name="description" content="Rebajas Online. Encuentra más ofertas en maletas, Morrales, Carteras, Bolsos">
+
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:title" content="Morrales Hasta -70% Off | Morrales Desde $19.900">
+		<meta name="twitter:description" content="Rebajas Online. Encuentra más ofertas en maletas, Morrales, Carteras, Bolsos">
+		<meta property="og:description" content="Rebajas Online. Encuentra más ofertas en maletas, Morrales, Carteras, Bolsos">
+		<meta property="og:title" content="Morrales Hasta -70% Off | Morrales Desde $19.900">
+
+
+
+
+		<!-- SYS- VVNfRElSRUNUX1BST0RVQ1RJT04= -->
+		<script charset="utf-8" src="./index_files/18.8d9b98557bf3839e9c87.js"></script>
+		<script charset="utf-8" src="./index_files/23.fe66fc7c29b5e63049b3.js"></script>
+		<script charset="utf-8" src="./index_files/1.38a874f31d2d8986b8b0.js"></script>
+		<script charset="utf-8" src="./index_files/7.9a94a74e30026a70bc4d.js"></script>
+		<script charset="utf-8" src="./index_files/runtime-module-anchors.8069350c1321599c430f.js"></script>
+		<script charset="utf-8" src="./index_files/3.837e97ee3698267e2a54.js"></script>
+		<script charset="utf-8" src="./index_files/5.a5af5a3b04156da9e174.js"></script>
+		<script charset="utf-8" src="./index_files/8.20c25f8b84fd357fa245.js"></script>
+		<style>
+			@-webkit-keyframes spin {
+				0% { -webkit-transform: rotate(0deg); }
+				100% { -webkit-transform: rotate(360deg); }
+			}
+		
+			@keyframes spin {
+				0% { transform: rotate(0deg); }
+				100% { transform: rotate(360deg); }
+			}
+
+			input.bito-email-input:-webkit-autofill,
+			input.bito-email-input:-webkit-autofill:hover,
+			input.bito-email-input:-webkit-autofill:focus {
+			  -webkit-text-fill-color: rgb(255, 255, 255);
+			  transition: background-color 5000s ease-in-out 0s;
+			}
+			
+			#bito-body::-webkit-scrollbar,
+			#emptyDiv-inner::-webkit-scrollbar,
+			#loginParentDiv-outer::-webkit-scrollbar {
+			  width: 4px;
+			  border-radius: 24px;
+			  color: #7a8084;
+			}
+			
+			#bito-body::-webkit-scrollbar-thumb,
+			#emptyDiv-inner::-webkit-scrollbar-thumb,
+			#loginParentDiv-outer::-webkit-scrollbar-thumb {
+			  background: #888; 
+			}
+			
+			#bito-body::-webkit-scrollbar-thumb:hover,
+			#emptyDiv-inner::-webkit-scrollbar-thumb:hover,
+			#loginParentDiv-outer::-webkit-scrollbar-thumb:hover {
+			  background: #555; 
+			}
+
+			.login-network-error-container {
+				padding: 10px 16px 8px;
+				color: rgb(255 0 0);
+			}		
+			
+			#loader {
+				background-color: #00000085;
+				position: absolute;
+				width: 100%;
+				top: 0px;
+				left: 0px;
+				height: 300px;
+				align-items: center;
+				justify-content: center;
+				display: grid;
+				z-index: 3002;
+				opacity: 9999;
+			}
+			
+			.spinner {
+			  display: inline-block;
+				  width: 1.5rem;
+				  height: 1.5rem;
+				  vertical-align: text-bottom;
+				  border: 1.75px solid #fff;
+				  border-right-color: transparent;
+				  border-radius: 50%;
+				  animation: spinner-border .75s linear infinite;
+				  margin-top:-30px
+			}
+			
+			@keyframes spinner-border {
+				0% { transform: rotate(0deg); }
+				100% { transform: rotate(360deg); }
+			  }
+		</style>
+	</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<body id="dmRoot" data-page-alias="home" class="dmRoot dmMobileBody fix-mobile-scrolling addCanvasBorder dmResellerSite mac safariFix responsiveTablet d1SiteBody dmLayoutBody dmBodyNoIscroll fullyLoaded"
+		  style="padding:0;margin:0;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- ========= Site Content ========= -->
+		<div id="dm" class="dmwr">
+
+			<div class="dm_wrapper mobileHamburgerLayout-var5 null mobileHamburgerLayout">
+				<div dmwrapped="true" id="1901957768" class="dm-home-page"
+					 themewaschanged="true">
+					<div dmtemplateid="mobileHamburgerLayout" class="runtime-module-container dm-bfs dm-layout-home hasAnimations hasStickyHeader inMiniHeaderMode rows-1200 dmPageBody dmFreeHeader d-page-1716942098"
+						 id="dm-outer-wrapper" data-page-class="1716942098"
+						 data-soch="true" data-background-parallax-selector=".dmHomeSection1, .dmSectionParallex">
+						<div id="dmStyle_outerContainer" class="dmOuter">
+							<div id="dmStyle_innerContainer" class="dmInner">
+								<div class="dmLayoutWrapper standard-var dmStandardMobile">
+									<div id="site_content">
+										<div class="p_hfcontainer">
+											<div id="mobile-hamburger-drawer"
+												 class="hamburger-drawer layout-drawer"
+												 layout="SHARD289cac9ed3175430eb42be55472f57c07===header"
+												 data-origin="side">
+												<div class="dmRespRow u_1760561962"
+													 style="text-align: center;"
+													 id="1760561962">
+													<div class="dmRespColsWrapper"
+														 id="1052456175">
+														<div class="dmRespCol small-12 medium-12 large-12 empty-column"
+															 id="1020955636"></div>
+													</div>
+												</div>
+												<div class="u_1330394287 dmRespRow middleDrawerRow"
+													 style="text-align: center;"
+													 id="1330394287">
+													<div class="dmRespColsWrapper"
+														 id="1766844966">
+														<div class="dmRespCol small-12 medium-12 large-12 u_1335552214 content-removed"
+															 id="1335552214">
+															<nav class="u_1766685946 effect-text-color main-navigation unifiednav dmLinksMenu"
+																 role="navigation"
+																 layout-main="vertical_nav_layout_4"
+																 layout-sub="submenu_horizontal_1"
+																 data-show-vertical-sub-items="HIDE"
+																 id="1766685946"
+																 dmle_extension="onelinksmenu"
+																 data-element-type="onelinksmenu"
+																 data-nav-structure="VERTICAL"
+																 wr="true" icon="true"
+																 surround="true"
+																 navigation-id="unifiedNav">
+																<ul role="menubar"
+																	class="unifiednav__container  "
+																	data-auto="navigation-pages">
+																	<li role="menuitem"
+																		class="unifiednav__item-wrap"
+																		data-auto="more-pages"
+																		data-depth="0">
+																		<a href="https://www.totoborse.online/?totomorrales_nueva"
+																		   class="unifiednav__item dmUDNavigationItem_010101630818"
+																		   target=""
+																		   data-target-page-alias="">
+																			<span
+																				  class="nav-item-text "
+																				  data-link-text="NUEVA COLECCIÓN"
+																				  data-auto="page-text-style">NUEVA
+																				COLECCIÓN<span
+																					  class="icon icon-angle-down"></span>
+																			</span>
+																		</a>
+																	</li>
+																	<li role="menuitem"
+																		class="unifiednav__item-wrap"
+																		data-auto="more-pages"
+																		data-depth="0">
+																		<a href="https://www.totoborse.online/?totomorrales_morrales"
+																		   class="unifiednav__item dmUDNavigationItem_010101377979"
+																		   target=""
+																		   data-target-page-alias="">
+																			<span
+																				  class="nav-item-text "
+																				  data-link-text="MORRALES"
+																				  data-auto="page-text-style">MORRALES<span
+																					  class="icon icon-angle-down"></span>
+																			</span>
+																		</a>
+																	</li>
+																	<li role="menuitem"
+																		class="unifiednav__item-wrap"
+																		data-auto="more-pages"
+																		data-depth="0">
+																		<a href="https://www.totoborse.online/?totomorrales_mujer"
+																		   class="unifiednav__item dmUDNavigationItem_010101276380"
+																		   target=""
+																		   data-target-page-alias="">
+																			<span
+																				  class="nav-item-text "
+																				  data-link-text="MUJER"
+																				  data-auto="page-text-style">MUJER<span
+																					  class="icon icon-angle-down"></span>
+																			</span>
+																		</a>
+																	</li>
+																	<li role="menuitem"
+																		class="unifiednav__item-wrap"
+																		data-auto="more-pages"
+																		data-depth="0">
+																		<a href="https://www.totoborse.online/?totomorrales_hombre"
+																		   class="unifiednav__item dmUDNavigationItem_010101393257"
+																		   target=""
+																		   data-target-page-alias="">
+																			<span
+																				  class="nav-item-text "
+																				  data-link-text="HOMBRE"
+																				  data-auto="page-text-style">HOMBRE<span
+																					  class="icon icon-angle-down"></span>
+																			</span>
+																		</a>
+																	</li>
+																	<li role="menuitem"
+																		class="unifiednav__item-wrap"
+																		data-auto="more-pages"
+																		data-depth="0">
+																		<a href="https://www.totoborse.online/?totomorrales_accesorios"
+																		   class="unifiednav__item dmUDNavigationItem_01010127313"
+																		   target=""
+																		   data-target-page-alias="">
+																			<span
+																				  class="nav-item-text "
+																				  data-link-text="ACCESORIOS"
+																				  data-auto="page-text-style">ACCESORIOS<span
+																					  class="icon icon-angle-down"></span>
+																			</span>
+																		</a>
+																	</li>
+																	<li role="menuitem"
+																		class="unifiednav__item-wrap"
+																		data-auto="more-pages"
+																		data-depth="0">
+																		<a href="https://www.totoborse.online/?totomorrales_ninos"
+																		   class="unifiednav__item dmUDNavigationItem_010101811688"
+																		   target=""
+																		   data-target-page-alias="">
+																			<span
+																				  class="nav-item-text "
+																				  data-link-text="NIÑOS"
+																				  data-auto="page-text-style">NIÑOS<span
+																					  class="icon icon-angle-down"></span>
+																			</span>
+																		</a>
+																	</li>
+																	<li role="menuitem"
+																		class="unifiednav__item-wrap"
+																		data-auto="more-pages"
+																		data-depth="0">
+																		<a href="https://www.totoborse.online/?totomorrales_viaje"
+																		   class="unifiednav__item dmUDNavigationItem_010101423594"
+																		   target=""
+																		   data-target-page-alias="">
+																			<span
+																				  class="nav-item-text "
+																				  data-link-text="VIAJE"
+																				  data-auto="page-text-style">VIAJE<span
+																					  class="icon icon-angle-down"></span>
+																			</span>
+																		</a>
+																	</li>
+																</ul>
+															</nav>
+														</div>
+													</div>
+												</div>
+												<div class="dmRespRow u_1833579682"
+													 style="text-align: center;"
+													 id="1833579682">
+													<div class="dmRespColsWrapper"
+														 id="1925552893">
+														<div class="dmRespCol small-12 medium-12 large-12 u_1513773475 empty-column"
+															 id="1513773475"></div>
+													</div>
+												</div>
+											</div>
+											<div class="layout-drawer-overlay"
+												 id="layout-drawer-overlay"></div>
+										</div>
+										<div class="site_content">
+											<div id="hamburger-header-container"
+												 class="hamburger-header-container p_hfcontainer">
+												<div id="mobile-hamburger-header"
+													 class="hamburger-header p_hfcontainer scroll-responder_set"
+													 layout="43ac471307c74e02b51c001914fabf00===header"
+													 data-scrollable-target="body"
+													 data-scroll-responder-id="mobile-hamburger-header">
+													<div class="dmRespRow dmDefaultListContentRow u_1586257764 fullBleedChanged fullBleedMode"
+														 style="text-align:center"
+														 id="1586257764" mode="4">
+														<div class="dmRespColsWrapper"
+															 id="1991962165">
+															<div class="u_1136817614 dmRespCol medium-4 large-4 small-2 empty-column"
+																 id="1136817614"></div>
+															<div class="u_1159861552 dmRespCol medium-4 large-4 small-8"
+																 id="1159861552">
+																<div class="u_1868084785 imageWidget align-center"
+																	 data-element-type="image"
+																	 data-widget-type="image"
+																	 id="1868084785"
+																	 editablewidget="true">
+																	<a href="https://totomorrales.multiscreensite.com/"
+																	   id="1419117955">
+																		<img
+																			 src="./index_files/s-logo-black-121w.png"
+																			 id="1358040512"
+																			 class=""
+																			 data-dm-image-path="https://irp.cdn-website.com/0d54c237/dms3rep/multi/s-logo-black.png"
+																			 width="800"
+																			 height="330"
+																			 onerror="handleImageLoadError(this)">
+																	</a>
+																</div>
+															</div>
+															<div class="u_1216230641 dmRespCol medium-4 large-4 small-2"
+																 id="1216230641">
+																<div class="u_1562072651 graphicWidget"
+																	 data-element-type="graphic"
+																	 data-widget-type="graphic"
+																	 id="1562072651">
+																	<a href="https://www.totoborse.online/?totomorrales_cart"
+																	   id="1428567814"
+																	   file="false"
+																	   class="">
+																		<svg
+																			 xmlns="http://www.w3.org/2000/svg"
+																			 viewBox="0 0 102 146"
+																			 id="1948891763"
+																			 class="svg u_1948891763"
+																			 data-icon-custom="true"
+																			 data-icon-name="shopping_bag.svg">
+																			<title
+																				   id="1356833591">shopping_bag</title>
+																			<g
+																			   id="Layer_2"
+																			   data-name="Layer 2">
+																				<g
+																				   id="Layer_1-2"
+																				   data-name="Layer 1">
+																					<path
+																						  d="M9,137l3.71-95.77A1.38,1.38,0,0,1,14.19,40H26.54V59.4a4.68,4.68,0,0,0,4.69,4.67,4.53,4.53,0,0,0,4.69-4.67V40H66.07V59.4a4.68,4.68,0,0,0,4.69,4.67,4.53,4.53,0,0,0,4.69-4.67V40H87.81a1.56,1.56,0,0,1,1.48,1.23L93,137ZM36,23.43C36,15.39,42.64,9,51,9s15,6.39,15,14.43V31H36Zm62,18a10.54,10.54,0,0,0-10.62-10H75.08V23.89a24.21,24.21,0,0,0-48.41,0v7.56H14.32a10.54,10.54,0,0,0-10.62,10L0,141.13a5.78,5.78,0,0,0,1.23,3.41A4.17,4.17,0,0,0,4.69,146H97.31a4.91,4.91,0,0,0,3.46-1.46,4.53,4.53,0,0,0,1.23-3.41Z"
+																						  id="1889956294"></path>
+																				</g>
+																			</g>
+																		</svg>
+																	</a>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div dmwrapped="true" id="dmFirstContainer"
+												 class="dmBody u_dmStyle_template_home dm-home-page"
+												 themewaschanged="true">
+												<div id="allWrapper" class="allWrapper">
+													<!-- navigation placeholders -->
+													<div id="dm_content" class="dmContent">
+														<div dm:templateorder="170"
+															 class="dmHomeRespTmpl mainBorder dmRespRowsWrapper dmFullRowRespTmpl dmRespRowsWrapperSize1"
+															 id="1716942098">
+															<div class="u_1802358902 dmRespRow"
+																 style="text-align: center;"
+																 id="1802358902">
+																<div class="dmRespColsWrapper"
+																	 id="1143081753">
+																	<div class="dmRespCol small-12 medium-12 large-12"
+																		 id="1611478856">
+																		<div
+																			 class="u_1129315175 dmNewParagraph"
+																			 id="1129315175"
+																			 style="transition: opacity 1s ease-in-out; display: block;"
+																			 data-element-type="paragraph"
+																			 data-version="5">
+																			<h1
+																				class="text-align-center">
+																				<span
+																					  style="color: var(--color_2); display: initial;">Ofertas</span>
+																			</h1>
+																			<h1
+																				class="text-align-center">
+																				<span
+																					  style="font-weight: 400; display: initial; color: var(--color_8);">Hasta
+																					el
+																					70%
+																					Off</span>
+																			</h1>
+																		</div>
+																		<a
+																		   data-display-type="block"
+																		   class="u_1884609827 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient"
+																		   file="false"
+																		   href="https://www.totoborse.online/?totomorrales_banner"
+																		   id="1884609827"
+																		   data-element-type="dButtonLinkId"
+																		   data-buttonstyle="BORDER_SHORT">
+																			<span
+																				  class="iconBg"
+																				  id="1020239082">
+																				<span
+																					  class="icon hasFontIcon icon-star"
+																					  id="1604136696"></span>
+																			</span>
+																			<span
+																				  class="text"
+																				  id="1585109039">COMPRAR</span>
+																		</a>
+																	</div>
+																</div>
+															</div>
+															<div class="dmRespRow"
+																 id="1151260609"
+																 mode="4">
+																<div class="dmRespColsWrapper"
+																	 id="1205151812">
+																	<div class="dmRespCol large-4 medium-4 small-4"
+																		 id="1308022661">
+																		<div
+																			 class="dmRespRow u_1584055173"
+																			 id="1584055173"
+																			 mode="1">
+																			<div
+																				 class="dmRespColsWrapper"
+																				 id="1047842972">
+																				<div
+																					 class="dmRespCol large-6 medium-6 small-12"
+																					 id="1614199998">
+																					<div
+																						 class="u_1728615519 imageWidget align-center"
+																						 data-element-type="image"
+																						 data-widget-type="image"
+																						 id="1728615519"
+																						 editablewidget="true">
+																						<a
+																						   href="https://www.totoborse.online/?totomorrales_category_morrales"
+																						   id="1244668317"
+																						   class=""
+																						   file="false">
+																							<img
+																								 src="./index_files/ahoh6-is0gn-5ab1315d-107w.jpg"
+																								 alt=""
+																								 id="1902223583"
+																								 class=""
+																								 data-dm-image-path="https://irp.cdn-website.com/0d54c237/dms3rep/multi/ahoh6-is0gn-5ab1315d.jpg"
+																								 width="187"
+																								 height="187"
+																								 onerror="handleImageLoadError(this)">
+																						</a>
+																					</div>
+																					<div
+																						 class="dmNewParagraph"
+																						 data-element-type="paragraph"
+																						 data-version="5"
+																						 id="1818177024"
+																						 style="transition: opacity 1s ease-in-out 0s;">
+																						<p
+																						   class="text-align-center">
+																							<a
+																							   href="https://www.totoborse.online/?totomorrales_category_morrales"
+																							   runtime_url="https://www.totoborse.online/?totomorrales_category_morrales"
+																							   type="url"
+																							   style="display: unset; color: rgb(0, 0, 0); text-decoration: none;">Morrales</a>
+																						</p>
+																					</div>
+																				</div>
+																				<div
+																					 class="dmRespCol large-6 medium-6 small-12"
+																					 id="1224597413">
+																					<div
+																						 class="u_1532090808 imageWidget align-center"
+																						 data-element-type="image"
+																						 data-widget-type="image"
+																						 id="1532090808"
+																						 editablewidget="true">
+																						<a
+																						   href="https://www.totoborse.online/?totomorrales_category_viaje"
+																						   id="1219856930"
+																						   class=""
+																						   file="false">
+																							<img
+																								 src="./index_files/aya3f-ywry2-6e7002af-107w.jpg"
+																								 alt=""
+																								 id="1925929510"
+																								 class=""
+																								 data-dm-image-path="https://irp.cdn-website.com/0d54c237/dms3rep/multi/aya3f-ywry2-6e7002af.jpg"
+																								 width="187"
+																								 height="187"
+																								 onerror="handleImageLoadError(this)"
+																								 loading="lazy">
+																						</a>
+																					</div>
+																					<div
+																						 class="dmNewParagraph"
+																						 data-element-type="paragraph"
+																						 data-version="5"
+																						 id="1249736301"
+																						 style="transition: opacity 1s ease-in-out 0s;">
+																						<p
+																						   class="text-align-center">
+																							<a
+																							   href="https://www.totoborse.online/?totomorrales_category_viaje"
+																							   runtime_url="https://www.totoborse.online/?totomorrales_category_viaje"
+																							   type="url"
+																							   style="display: unset; color: rgb(0, 0, 0); text-decoration: none;">Viaje</a>
+																						</p>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="dmRespCol large-4 medium-4 small-4"
+																		 id="1146813198">
+																		<div
+																			 class="dmRespRow u_1743259522"
+																			 id="1743259522"
+																			 mode="1">
+																			<div
+																				 class="dmRespColsWrapper"
+																				 id="1683584971">
+																				<div
+																					 class="dmRespCol large-6 medium-6 small-12"
+																					 id="1946891952">
+																					<div
+																						 class="u_1533187637 imageWidget align-center"
+																						 data-element-type="image"
+																						 data-widget-type="image"
+																						 id="1533187637"
+																						 editablewidget="true">
+																						<a
+																						   href="https://www.totoborse.online/?totomorrales_category_ropa"
+																						   id="1041818108"
+																						   class=""
+																						   file="false">
+																							<img
+																								 src="./index_files/awr4z-zqk0j-9f97e93b-107w.jpg"
+																								 alt=""
+																								 id="1817848134"
+																								 class=""
+																								 data-dm-image-path="https://irp.cdn-website.com/0d54c237/dms3rep/multi/awr4z-zqk0j-9f97e93b.jpg"
+																								 width="187"
+																								 height="187"
+																								 onerror="handleImageLoadError(this)">
+																						</a>
+																					</div>
+																					<div
+																						 class="dmNewParagraph"
+																						 data-element-type="paragraph"
+																						 data-version="5"
+																						 id="1102923620"
+																						 style="transition: opacity 1s ease-in-out 0s;">
+																						<p
+																						   class="text-align-center">
+																							<a
+																							   href="https://www.totoborse.online/?totomorrales_category_ropa"
+																							   runtime_url="https://www.totoborse.online/?totomorrales_category_ropa"
+																							   type="url"
+																							   style="display: unset; color: rgb(0, 0, 0); text-decoration: none;">Ropa</a>
+																						</p>
+																					</div>
+																				</div>
+																				<div
+																					 class="dmRespCol large-6 medium-6 small-12"
+																					 id="1890286598">
+																					<div
+																						 class="u_1570989422 imageWidget align-center"
+																						 data-element-type="image"
+																						 data-widget-type="image"
+																						 id="1570989422"
+																						 editablewidget="true">
+																						<a
+																						   href="https://www.totoborse.online/?totomorrales_category_mascotas"
+																						   id="1249752303"
+																						   class=""
+																						   file="false">
+																							<img
+																								 src="./index_files/ab3dp-x7uz1-a25e6499-107w.jpg"
+																								 alt=""
+																								 id="1700748371"
+																								 class=""
+																								 data-dm-image-path="https://irp.cdn-website.com/0d54c237/dms3rep/multi/ab3dp-x7uz1-a25e6499.jpg"
+																								 width="187"
+																								 height="187"
+																								 onerror="handleImageLoadError(this)"
+																								 loading="lazy">
+																						</a>
+																					</div>
+																					<div
+																						 class="dmNewParagraph"
+																						 data-element-type="paragraph"
+																						 data-version="5"
+																						 id="1465085351"
+																						 style="transition: opacity 1s ease-in-out 0s;">
+																						<p
+																						   class="text-align-center">
+																							<a
+																							   href="https://www.totoborse.online/?totomorrales_category_mascotas"
+																							   runtime_url="https://www.totoborse.online/?totomorrales_category_mascotas"
+																							   type="url"
+																							   style="display: unset; color: rgb(0, 0, 0); text-decoration: none;">Mascotas</a>
+																						</p>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="dmRespCol large-4 medium-4 small-4"
+																		 id="1860916819">
+																		<div
+																			 class="dmRespRow u_1277067950"
+																			 id="1277067950"
+																			 mode="1">
+																			<div
+																				 class="dmRespColsWrapper"
+																				 id="1190592442">
+																				<div
+																					 class="dmRespCol large-6 medium-6 small-12"
+																					 id="1353979369">
+																					<div
+																						 class="u_1676339264 imageWidget align-center"
+																						 data-element-type="image"
+																						 data-widget-type="image"
+																						 id="1676339264"
+																						 editablewidget="true">
+																						<a
+																						   href="https://www.totoborse.online/?totomorrales_category_accesrios"
+																						   id="1970524275"
+																						   class=""
+																						   file="false">
+																							<img
+																								 src="./index_files/a3jzl-bp08h-aa43b2b5-107w.jpg"
+																								 alt=""
+																								 id="1190367990"
+																								 class=""
+																								 data-dm-image-path="https://irp.cdn-website.com/0d54c237/dms3rep/multi/a3jzl-bp08h-aa43b2b5.jpg"
+																								 width="187"
+																								 height="187"
+																								 onerror="handleImageLoadError(this)">
+																						</a>
+																					</div>
+																					<div
+																						 class="dmNewParagraph"
+																						 data-element-type="paragraph"
+																						 data-version="5"
+																						 id="1273508193"
+																						 style="transition: opacity 1s ease-in-out 0s;">
+																						<p
+																						   class="text-align-center">
+																							<a
+																							   href="https://www.totoborse.online/?totomorrales_category_accesrios"
+																							   runtime_url="https://www.totoborse.online/?totomorrales_category_accesrios"
+																							   type="url"
+																							   style="display: unset; color: rgb(0, 0, 0); text-decoration: none;">Accesorios</a>
+																						</p>
+																					</div>
+																				</div>
+																				<div
+																					 class="dmRespCol large-6 medium-6 small-12"
+																					 id="1698209863">
+																					<div
+																						 class="u_1342911421 imageWidget align-center"
+																						 data-element-type="image"
+																						 data-widget-type="image"
+																						 id="1342911421"
+																						 editablewidget="true">
+																						<a
+																						   href="https://www.totoborse.online/?totomorrales_category_regalos"
+																						   id="1411098461"
+																						   class=""
+																						   file="false">
+																							<img
+																								 src="./index_files/aggfe-iwy9m-978c7421-107w.jpg"
+																								 alt=""
+																								 id="1099297316"
+																								 class=""
+																								 data-dm-image-path="https://irp.cdn-website.com/0d54c237/dms3rep/multi/aggfe-iwy9m-978c7421.jpg"
+																								 width="187"
+																								 height="187"
+																								 onerror="handleImageLoadError(this)"
+																								 loading="lazy">
+																						</a>
+																					</div>
+																					<div
+																						 class="dmNewParagraph"
+																						 data-element-type="paragraph"
+																						 data-version="5"
+																						 id="1434647865"
+																						 style="transition: opacity 1s ease-in-out 0s;">
+																						<p
+																						   class="text-align-center">
+																							<a
+																							   href="https://www.totoborse.online/?totomorrales_category_regalos"
+																							   runtime_url="https://www.totoborse.online/?totomorrales_category_regalos"
+																							   type="url"
+																							   style="display: unset; color: rgb(0, 0, 0); text-decoration: none;">Regalos</a>
+																						</p>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="dmRespRow"
+																 id="1973163685">
+																<div class="dmRespColsWrapper"
+																	 id="1159140931">
+																	<div class="dmRespCol large-12 medium-12 small-12"
+																		 id="1814687610">
+																		<div
+																			 class="dmNewParagraph"
+																			 data-element-type="paragraph"
+																			 data-version="5"
+																			 id="1597321265"
+																			 style="transition: opacity 1s ease-in-out 0s;">
+																			<p
+																			   class="text-align-center">
+																				<span
+																					  style="display: unset; text-transform: uppercase;">!RECOMENDADOS
+																					PARA
+																					TI!</span>
+																			</p>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="dmRespRow"
+																 id="1052965741"
+																 mode="4">
+																<div class="dmRespColsWrapper"
+																	 id="1148295337">
+																	<div class="dmRespCol large-3 medium-3 small-6"
+																		 id="1896941400">
+																		<div
+																			 class="imageWidget align-center u_1824510149"
+																			 data-element-type="image"
+																			 data-widget-type="image"
+																			 id="1824510149"
+																			 editablewidget="true">
+																			<a
+																			   href="https://www.totoborse.online/?totomorrales_product_1"
+																			   id="1608849856"
+																			   class=""
+																			   file="false">
+																				<img
+																					 src="./index_files/aqxln-e44cd-c5aa120f-180w.jpg"
+																					 alt=""
+																					 id="1955715814"
+																					 class=""
+																					 data-dm-image-path="https://irp.cdn-website.com/0d54c237/dms3rep/multi/aqxln-e44cd-c5aa120f.jpg"
+																					 width="1500"
+																					 height="1500"
+																					 onerror="handleImageLoadError(this)"
+																					 loading="lazy">
+																			</a>
+																		</div>
+																		<div
+																			 class="dmNewParagraph"
+																			 data-element-type="paragraph"
+																			 data-version="5"
+																			 id="1141404527"
+																			 style="transition: opacity 1s ease-in-out 0s;">
+																			<p>
+																				<a
+																				   href="https://www.totoborse.online/?totomorrales_product_1"
+																				   runtime_url="https://www.totoborse.online/?totomorrales_product_1"
+																				   type="url"
+																				   style="display: unset; color: rgb(0, 0, 0); text-decoration: none;">Morral
+																					Rue
+																					Bomper
+																					Trik
+																					Grande
+																					Con
+																					Ruedas</a>
+																			</p>
+																		</div>
+																		<div
+																			 class="dmNewParagraph"
+																			 data-element-type="paragraph"
+																			 data-version="5"
+																			 id="1333537157"
+																			 style="transition: opacity 1s ease-in-out 0s;">
+																			<p>
+																				<span
+																					  class=""
+																					  style="display: unset; color: rgb(0, 0, 0);">
+																					<span
+																						  style="display: unset; color: rgb(0, 0, 0);">$42.900</span>
+																				</span>
+																				<span
+																					  style="display: unset; color: rgb(138, 138, 138); text-decoration: line-through;">$147.900</span>
+																			</p>
+																		</div>
+																		<div
+																			 class="dmNewParagraph"
+																			 data-element-type="paragraph"
+																			 data-version="5"
+																			 id="1881716403"
+																			 style="transition: opacity 1s ease-in-out 0s;">
+																			<p>
+																				<span
+																					  style="display: unset; color: rgb(0, 0, 0);">Ahorra:
+																					$105.000</span>
+																			</p>
+																		</div>
+																	</div>
+																	<div class="dmRespCol large-3 medium-3 small-6"
+																		 id="1967654850">
+																		<div
+																			 class="imageWidget align-center u_1451155325"
+																			 data-element-type="image"
+																			 data-widget-type="image"
+																			 id="1451155325"
+																			 editablewidget="true">
+																			<a
+																			   href="https://www.totoborse.online/?totomorrales_product_2"
+																			   id="1750274134"
+																			   class=""
+																			   file="false">
+																				<img
+																					 src="./index_files/alea4-urfkp-4482f68a-180w.jpg"
+																					 alt=""
+																					 id="1930286278"
+																					 class=""
+																					 data-dm-image-path="https://irp.cdn-website.com/0d54c237/dms3rep/multi/alea4-urfkp-4482f68a.jpg"
+																					 width="1500"
+																					 height="1500"
+																					 onerror="handleImageLoadError(this)"
+																					 loading="lazy">
+																			</a>
+																		</div>
+																		<div
+																			 class="dmNewParagraph"
+																			 data-element-type="paragraph"
+																			 data-version="5"
+																			 id="1723312099"
+																			 style="transition: opacity 1s ease-in-out 0s;">
+																			<p>
+																				<a
+																				   href="https://www.totoborse.online/?totomorrales_product_2"
+																				   runtime_url="https://www.totoborse.online/?totomorrales_product_2"
+																				   type="url"
+																				   style="display: unset; color: rgb(0, 0, 0); text-decoration: none;">Morral
+																					De
+																					Viaje
+																					Rue
+																					Boroz
+																					Con
+																					Ruedas</a>
+																			</p>
+																		</div>
+																		<div
+																			 class="dmNewParagraph"
+																			 data-element-type="paragraph"
+																			 data-version="5"
+																			 id="1904825285"
+																			 style="transition: opacity 1s ease-in-out 0s;">
+																			<p>
+																				<span
+																					  class=""
+																					  style="color: rgb(0, 0, 0); display: unset;">
+																					<span
+																						  style="color: rgb(0, 0, 0); display: unset;">$73.900</span>
+																				</span>
+																				<span
+																					  style="color: rgb(138, 138, 138); display: unset; text-decoration: line-through;">$254.900</span>
+																			</p>
+																		</div>
+																		<div
+																			 class="dmNewParagraph"
+																			 data-element-type="paragraph"
+																			 data-version="5"
+																			 id="1383457084"
+																			 style="transition: opacity 1s ease-in-out 0s;">
+																			<p>
+																				<span
+																					  style="display: unset; color: rgb(0, 0, 0);">Ahorra:
+																					$181.000</span>
+																			</p>
+																		</div>
+																	</div>
+																	<div class="dmRespCol large-3 medium-3 small-6"
+																		 id="1286740703">
+																		<div
+																			 class="imageWidget align-center u_1431114580"
+																			 data-element-type="image"
+																			 data-widget-type="image"
+																			 id="1431114580"
+																			 editablewidget="true">
+																			<a
+																			   href="https://www.totoborse.online/?totomorrales_product_3"
+																			   id="1364375394"
+																			   class=""
+																			   file="false">
+																				<img
+																					 src="./index_files/atz2y-9pf5d-8daa3d21-180w.jpg"
+																					 alt=""
+																					 id="1911918501"
+																					 class=""
+																					 data-dm-image-path="https://irp.cdn-website.com/0d54c237/dms3rep/multi/atz2y-9pf5d-8daa3d21.jpg"
+																					 width="1500"
+																					 height="1500"
+																					 onerror="handleImageLoadError(this)"
+																					 loading="lazy">
+																			</a>
+																		</div>
+																		<div
+																			 class="dmNewParagraph"
+																			 data-element-type="paragraph"
+																			 data-version="5"
+																			 id="1464830017"
+																			 style="transition: opacity 1s ease-in-out 0s;">
+																			<p>
+																				<a
+																				   href="https://www.totoborse.online/?totomorrales_product_3"
+																				   runtime_url="https://www.totoborse.online/?totomorrales_product_3"
+																				   type="url"
+																				   style="display: unset; color: rgb(0, 0, 0); text-decoration: none;">Maleta
+																					De
+																					Viaje
+																					360°
+																					Bazy
+																					Plus
+																					De
+																					Cabina</a>
+																			</p>
+																		</div>
+																		<div
+																			 class="dmNewParagraph"
+																			 data-element-type="paragraph"
+																			 data-version="5"
+																			 id="1470299650"
+																			 style="transition: opacity 1s ease-in-out 0s;">
+																			<p>
+																				<span
+																					  class=""
+																					  style="display: unset; color: rgb(0, 0, 0);">
+																					<span
+																						  style="display: unset; color: rgb(0, 0, 0);">$81.900</span>
+																				</span>
+																				<span
+																					  style="display: unset; color: rgb(138, 138, 138); text-decoration: line-through;">$281.900</span>
+																			</p>
+																		</div>
+																		<div
+																			 class="dmNewParagraph"
+																			 data-element-type="paragraph"
+																			 data-version="5"
+																			 id="1430662748"
+																			 style="transition: opacity 1s ease-in-out 0s;">
+																			<p>
+																				<span
+																					  style="display: unset; color: rgb(0, 0, 0);">Ahorra:
+																					$200.000</span>
+																			</p>
+																		</div>
+																	</div>
+																	<div class="dmRespCol large-3 medium-3 small-6"
+																		 id="1179095336">
+																		<div
+																			 class="imageWidget align-center u_1145109492"
+																			 data-element-type="image"
+																			 data-widget-type="image"
+																			 id="1145109492"
+																			 editablewidget="true">
+																			<a
+																			   href="https://www.totoborse.online/?totomorrales_product_4"
+																			   id="1771747184"
+																			   class=""
+																			   file="false">
+																				<img
+																					 src="./index_files/anl1n-mwixp-edc8c27f-180w.jpg"
+																					 alt=""
+																					 id="1690502767"
+																					 class=""
+																					 data-dm-image-path="https://irp.cdn-website.com/0d54c237/dms3rep/multi/anl1n-mwixp-edc8c27f.jpg"
+																					 width="1500"
+																					 height="1500"
+																					 onerror="handleImageLoadError(this)"
+																					 loading="lazy">
+																			</a>
+																		</div>
+																		<div
+																			 class="dmNewParagraph"
+																			 data-element-type="paragraph"
+																			 data-version="5"
+																			 id="1675764885"
+																			 style="transition: opacity 1s ease-in-out 0s;">
+																			<p>
+																				<a
+																				   href="https://www.totoborse.online/?totomorrales_product_4"
+																				   runtime_url="https://www.totoborse.online/?totomorrales_product_4"
+																				   type="url"
+																				   style="display: unset; color: rgb(0, 0, 0); text-decoration: none;">Maleta
+																					De
+																					Viaje
+																					Travel
+																					Lite
+																					360°
+																					De
+																					Cabina</a>
+																			</p>
+																		</div>
+																		<div
+																			 class="dmNewParagraph"
+																			 data-element-type="paragraph"
+																			 data-version="5"
+																			 id="1077856466"
+																			 style="transition: opacity 1s ease-in-out 0s;">
+																			<p>
+																				<span
+																					  class=""
+																					  style="color: rgb(0, 0, 0); font-weight: normal; display: unset;">
+																					<span
+																						  style="color: rgb(0, 0, 0); font-weight: normal; display: unset;">$73.900</span>
+																				</span>
+																				<span
+																					  style="color: rgb(138, 138, 138); font-weight: normal; display: unset; text-decoration: line-through;">$254.900</span>
+																			</p>
+																		</div>
+																		<div
+																			 class="dmNewParagraph"
+																			 data-element-type="paragraph"
+																			 data-version="5"
+																			 id="1899299795"
+																			 style="transition: opacity 1s ease-in-out 0s;">
+																			<p>
+																				<span
+																					  style="display: unset; color: rgb(0, 0, 0);">Ahorra:
+																					$181.000</span>
+																			</p>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="dmRespRow u_1077486816 fullBleedChanged fullBleedMode"
+																 id="1077486816">
+																<div class="dmRespColsWrapper"
+																	 id="1656375365">
+																	<div class="dmRespCol large-6 medium-6 small-12"
+																		 id="1829868607">
+																		<div
+																			 class="imageWidget align-center u_1770597536"
+																			 data-element-type="image"
+																			 data-widget-type="image"
+																			 id="1770597536"
+																			 editablewidget="true">
+																			<a
+																			   href="https://www.totoborse.online/?totomorrales_category2_maletas"
+																			   id="1875167272"
+																			   class=""
+																			   file="false">
+																				<img
+																					 src="./index_files/category4-372w.jpg"
+																					 alt=""
+																					 id="1963373496"
+																					 class=""
+																					 data-dm-image-path="https://irp.cdn-website.com/0d54c237/dms3rep/multi/category4.jpg"
+																					 width="900"
+																					 height="500"
+																					 onerror="handleImageLoadError(this)"
+																					 loading="lazy">
+																			</a>
+																		</div>
+																	</div>
+																	<div class="dmRespCol large-6 medium-6 small-12"
+																		 id="1121445582">
+																		<div
+																			 class="imageWidget align-center u_1681908291"
+																			 data-element-type="image"
+																			 data-widget-type="image"
+																			 id="1681908291"
+																			 editablewidget="true">
+																			<a
+																			   href="https://www.totoborse.online/?totomorrales_category2_mascotaas"
+																			   id="1284929157"
+																			   class=""
+																			   file="false">
+																				<img
+																					 src="./index_files/category2-372w.jpg"
+																					 alt=""
+																					 id="1862682400"
+																					 class=""
+																					 data-dm-image-path="https://irp.cdn-website.com/0d54c237/dms3rep/multi/category2.jpg"
+																					 width="900"
+																					 height="500"
+																					 onerror="handleImageLoadError(this)"
+																					 loading="lazy">
+																			</a>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="dmRespRow fullBleedChanged fullBleedMode u_1531597467"
+																 id="1531597467">
+																<div class="dmRespColsWrapper"
+																	 id="1760496058">
+																	<div class="dmRespCol large-6 medium-6 small-12"
+																		 id="1110602896">
+																		<div
+																			 class="imageWidget align-center u_1727691366"
+																			 data-element-type="image"
+																			 data-widget-type="image"
+																			 id="1727691366"
+																			 editablewidget="true">
+																			<a
+																			   href="https://www.totoborse.online/?totomorrales_category2_bolsos"
+																			   id="1221543210"
+																			   class=""
+																			   file="false">
+																				<img
+																					 src="./index_files/category3-372w.jpg"
+																					 alt=""
+																					 id="1168678543"
+																					 class=""
+																					 data-dm-image-path="https://irp.cdn-website.com/0d54c237/dms3rep/multi/category3.jpg"
+																					 width="900"
+																					 height="500"
+																					 onerror="handleImageLoadError(this)"
+																					 loading="lazy">
+																			</a>
+																		</div>
+																	</div>
+																	<div class="dmRespCol large-6 medium-6 small-12"
+																		 id="1253948166">
+																		<div
+																			 class="imageWidget align-center u_1716893039"
+																			 data-element-type="image"
+																			 data-widget-type="image"
+																			 id="1716893039"
+																			 editablewidget="true">
+																			<a
+																			   href="https://www.totoborse.online/?totomorrales_category2_accesorios"
+																			   id="1494274086"
+																			   class=""
+																			   file="false">
+																				<img
+																					 src="./index_files/category1-372w.jpg"
+																					 alt=""
+																					 id="1517235644"
+																					 class=""
+																					 data-dm-image-path="https://irp.cdn-website.com/0d54c237/dms3rep/multi/category1.jpg"
+																					 width="900"
+																					 height="500"
+																					 onerror="handleImageLoadError(this)"
+																					 loading="lazy">
+																			</a>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="dmRespRow"
+																 id="1143165064"
+																 mode="4">
+																<div class="dmRespColsWrapper"
+																	 id="1279704467">
+																	<div class="dmRespCol large-3 medium-3 small-6"
+																		 id="1173263944">
+																		<div
+																			 class="imageWidget align-center u_1475807540"
+																			 data-element-type="image"
+																			 data-widget-type="image"
+																			 id="1475807540"
+																			 editablewidget="true">
+																			<img
+																				 src="./index_files/icon-disney100.webp"
+																				 alt=""
+																				 id="1975252410"
+																				 class=""
+																				 data-dm-image-path="https://irp.cdn-website.com/0d54c237/dms3rep/multi/icon-disney100.webp"
+																				 width="343"
+																				 height="177"
+																				 onerror="handleImageLoadError(this)"
+																				 loading="lazy">
+																		</div>
+																	</div>
+																	<div class="dmRespCol large-3 medium-3 small-6"
+																		 id="1985079001">
+																		<div
+																			 class="imageWidget align-center u_1340364166"
+																			 data-element-type="image"
+																			 data-widget-type="image"
+																			 id="1340364166"
+																			 editablewidget="true">
+																			<img
+																				 src="./index_files/envio-gratis.webp"
+																				 alt=""
+																				 id="1665638800"
+																				 class=""
+																				 data-dm-image-path="https://irp.cdn-website.com/0d54c237/dms3rep/multi/envio-gratis.webp"
+																				 width="343"
+																				 height="177"
+																				 onerror="handleImageLoadError(this)"
+																				 loading="lazy">
+																		</div>
+																	</div>
+																	<div class="dmRespCol large-3 medium-3 small-6"
+																		 id="1569728166">
+																		<div
+																			 class="imageWidget align-center u_1244743666"
+																			 data-element-type="image"
+																			 data-widget-type="image"
+																			 id="1244743666"
+																			 editablewidget="true">
+																			<img
+																				 src="./index_files/devoluciones.webp"
+																				 alt=""
+																				 id="1778513558"
+																				 class=""
+																				 data-dm-image-path="https://irp.cdn-website.com/0d54c237/dms3rep/multi/devoluciones.webp"
+																				 width="343"
+																				 height="177"
+																				 onerror="handleImageLoadError(this)"
+																				 loading="lazy">
+																		</div>
+																	</div>
+																	<div class="dmRespCol large-3 medium-3 small-6"
+																		 id="1428738832">
+																		<div
+																			 class="imageWidget align-center u_1677331418"
+																			 data-element-type="image"
+																			 data-widget-type="image"
+																			 id="1677331418"
+																			 editablewidget="true">
+																			<img
+																				 src="./index_files/coleccion-eco.webp"
+																				 alt=""
+																				 id="1542852454"
+																				 class=""
+																				 data-dm-image-path="https://irp.cdn-website.com/0d54c237/dms3rep/multi/coleccion-eco.webp"
+																				 width="343"
+																				 height="177"
+																				 onerror="handleImageLoadError(this)"
+																				 loading="lazy">
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="sticky-widgets-container-global"
+												 id="1396055384"></div>
+											<div class="dmFooterContainer">
+												<div id="fcontainer" class="u_fcontainer f_hcontainer dmFooter p_hfcontainer">
+													<div dm:templateorder="250"
+														 class="dmFooterResp generalFooter"
+														 id="1943048428">
+														<div class="dmRespRow u_1632155419 fullBleedChanged fullBleedMode"
+															 style="text-align: center;"
+															 id="1632155419"
+															 mode="1">
+															<div class="dmRespColsWrapper"
+																 id="1253858808">
+																<div class="u_1940561751 dmRespCol small-12 medium-12 large-12"
+																	 id="1940561751">
+																	<div class="u_1420924511 dmRespRow"
+																		 id="1420924511"
+																		 mode="1">
+																		<div
+																			 class="dmRespColsWrapper"
+																			 id="1602134095">
+																			<div
+																				 class="u_1948219590 dmRespCol hide-for-small small-12 medium-6 large-6"
+																				 id="1948219590">
+																				<div
+																					 class="dmNewParagraph"
+																					 data-element-type="paragraph"
+																					 data-version="5"
+																					 id="1245119065"
+																					 style="transition: opacity 1s ease-in-out 0s;">
+																					<p
+																					   class="size-16 m-size-13">
+																						<span
+																							  style="display: unset; color: var(--color_2);"
+																							  class="font-size-16 m-font-size-13">Quiénes
+																							somos</span>
+																					</p>
+																					<p
+																					   class="size-14 m-size-11">
+																						<span
+																							  style="display: unset; color: var(--color_2);"
+																							  class="font-size-14 m-font-size-11">Línea
+																							Ética</span>
+																					</p>
+																					<p
+																					   class="size-14 m-size-11">
+																						<span
+																							  style="display: unset; color: var(--color_2);"
+																							  class="font-size-14 m-font-size-11">Aviso
+																							de
+																							privacidad</span>
+																					</p>
+																					<p
+																					   class="size-14 m-size-11">
+																						<span
+																							  style="display: unset; color: var(--color_2);"
+																							  class="font-size-14 m-font-size-11">Sostenibilidad</span>
+																					</p>
+																					<p
+																					   class="size-14 m-size-11">
+																						<span
+																							  style="display: unset; color: var(--color_2);"
+																							  class="font-size-14 m-font-size-11">Prensa</span>
+																					</p>
+																					<p
+																					   class="size-14 m-size-11">
+																						<span
+																							  style="display: unset; color: var(--color_2);"
+																							  class="font-size-14 m-font-size-11">Negocios
+																							empresariales</span>
+																					</p>
+																					<p
+																					   class="size-14 m-size-11">
+																						<span
+																							  style="display: unset; color: var(--color_2);"
+																							  class="font-size-14 m-font-size-11">Política
+																							de
+																							Tratamiento
+																							de
+																							Datos</span>
+																					</p>
+																				</div>
+																			</div>
+																			<div
+																				 class="u_1575123205 dmRespCol small-12 medium-6 large-6"
+																				 id="1575123205">
+																				<div
+																					 class="u_1790143398 dmNewParagraph"
+																					 data-element-type="paragraph"
+																					 data-version="5"
+																					 id="1790143398"
+																					 style="transition: none 0s ease 0s; text-align: left; display: block;">
+																					<p
+																					   class="size-16 m-size-13">
+																						<span
+																							  style="color: var(--color_2); display: initial;"
+																							  class="font-size-16 m-font-size-13">Servicio
+																							al
+																							cliente</span>
+																					</p>
+																					<p
+																					   class="size-14 m-size-11">
+																						<span
+																							  style="color: var(--color_2); display: initial;"
+																							  class="font-size-14 m-font-size-11">Envíos
+																							y
+																							Entregas</span>
+																					</p>
+																					<h5
+																						class="size-14 m-size-11">
+																						<span
+																							  style="color: var(--color_2); display: initial;"
+																							  class="font-size-14 m-font-size-11">Cambios
+																							y
+																							Devoluciones</span>
+																					</h5>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<div class="u_1115295739 dmRespRow"
+																		 id="1115295739"
+																		 mode="1">
+																		<div
+																			 class="dmRespColsWrapper"
+																			 id="1285894699">
+																			<div
+																				 class="u_1123856316 dmRespCol small-12 medium-12 large-12"
+																				 id="1123856316">
+																				<div
+																					 class="u_1888852315 widget-1f5975 dmCustomWidget"
+																					 data-lazy-load=""
+																					 data-title=""
+																					 id="1888852315"
+																					 dmle_extension="custom_extension"
+																					 data-element-type="custom_extension"
+																					 icon="false"
+																					 surround="false"
+																					 data-widget-id="1f5975986930429f819d4cd2154b5c4a"
+																					 data-widget-version="22"
+																					 data-widget-config="eyJjb3B5cmlnaHRUZXh0IjoiPHAgY2xhc3M9XCJydGVCbG9ja1wiPkFsbCBSaWdodHMgUmVzZXJ2ZWQgfCB0b3RvPC9wPiJ9">
+																					<div
+																						 class="copyright">
+																						<div>©
+																							2023&nbsp;</div>
+																						<div>
+																							<p
+																							   class="rteBlock">All
+																								Rights
+																								Reserved
+																								|
+																								toto</p>
+																						</div>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div id="1236746004"
+														 dmle_extension="powered_by"
+														 data-element-type="powered_by"
+														 icon="true" surround="false"></div>
+												</div>
+											</div>
+										</div>
+										<div class="layout-drawer-hamburger hamburger-on-header hamburger-on-scrolled-header"
+											 id="layout-drawer-hamburger" role="button"
+											 aria-label="menu opener" tabindex="0"
+											 style="top: 22.5px !important;">
+											<span class="hamburger__slice"></span>
+											<span class="hamburger__slice"></span>
+											<span class="hamburger__slice"></span>
+										</div>
+										<a class="dmBackToTop" id="dmBackToTop"
+										   aria-label="Scroll to top" href="https://totomorrales.bitbucket.io/#dmContent"
+										   style="opacity: 1; visibility: visible;"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!--  Add full CSS and Javascript before the close tag of the body if needed -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- Google Fonts Include -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- loadCSS function -->
+
+
+
+		<script id="d-js-load-css">
+			/**
+ * There are a few <link> tags with CSS resource in them that are preloaded in the page
+ * in each of those there is a "onload" handler which invokes the loadCSS callback
+ * defined here.
+ * We are monitoring 3 main CSS files - the runtime, the global and the page.
+ * When each load we check to see if we can append them all in a batch. If threre
+ * is no page css (which may happen on inner pages) then we do not wait for it
+ */
+(function () {
+  let cssLinks = {};
+  function loadCssLink(link) {
+    link.onload = null;
+    link.rel = "stylesheet";
+    link.type = "text/css";
+  }
+  
+    function checkCss() {
+      const pageCssLink = document.querySelector("[id*='CssLink']");
+
+        if (cssLinks && cssLinks.runtime && cssLinks.global && (!pageCssLink || cssLinks.page)) {
+            const storedRuntimeCssLink = cssLinks.runtime;
+            const storedPageCssLink = cssLinks.page;
+            const storedGlobalCssLink = cssLinks.global;
+
+            storedGlobalCssLink.disabled = true;
+            loadCssLink(storedGlobalCssLink);
+
+            if (storedPageCssLink) {
+                storedPageCssLink.disabled = true;
+                loadCssLink(storedPageCssLink);
+            }
+
+            storedRuntimeCssLink.disabled = true;
+            loadCssLink(storedRuntimeCssLink);
+
+            requestAnimationFrame(() => {
+                setTimeout(() => {
+                    storedRuntimeCssLink.disabled = false;
+                    storedGlobalCssLink.disabled = false;
+                    if (storedPageCssLink) {
+                      storedPageCssLink.disabled = false;
+                    }
+                    cssLinks = null;
+                }, 0);
+            });
+        }
+    }
+  
+
+  function loadCSS(link) {
+    try {
+      var urlParams = new URLSearchParams(window.location.search);
+      var noCSS = !!urlParams.get("nocss");
+      var cssTimeout = urlParams.get("cssTimeout") || 0;
+
+      if (noCSS) {
+        return;
+      }
+      if (link.href.includes("d-css-runtime")) {
+        cssLinks.runtime = link;
+        checkCss();
+      } else if (link.id === "siteGlobalCss") {
+        cssLinks.global = link;
+        checkCss();
+      } 
+      
+      else if(link.id.includes("CssLink")) {
+        cssLinks.page = link;
+        checkCss();
+      }  
+      
+      else {
+        requestIdleCallback(function () {
+          window.setTimeout(function () {
+            loadCssLink(link);
+          }, parseInt(cssTimeout, 10));
+        });
+      }
+    } catch (e) {
+      throw e
+    }
+  }
+  window.loadCSS = window.loadCSS || loadCSS;
+})();
+</script>
+
+		<link rel="stylesheet" href="./index_files/css" as="style"
+			  fetchpriority="low" onload="loadCSS(this)" type="text/css">
+
+
+
+
+
+		<!-- RT CSS Include d-css-runtime-mobile-one-package-structured-global-->
+		<link rel="stylesheet" as="style" fetchpriority="low" onload="loadCSS(this)"
+			  href="./index_files/d-css-runtime-mobile-one-package-structured-global.min.css"
+			  type="text/css">
+
+		<!-- End of RT CSS Include -->
+
+
+		<link rel="stylesheet" href="./index_files/525967ae3c447da81bae1c91f80aa8c7.css"
+			  id="widgetCSS" as="style" fetchpriority="low" onload="loadCSS(this)"
+			  type="text/css">
+
+
+		<!-- Support `img` size attributes -->
+		<style>
+			img[width][height] {
+			  height: auto;
+			}
+		</style>
+
+		<!-- Support showing sticky element on page only -->
+		<style>
+			body[data-page-alias="home"] #dm [data-show-on-page-only="home"] {
+			    display: block !important;
+			  }
+		</style>
+
+		<!-- This is populated in Ajax navigation -->
+		<style id="pageAdditionalWidgetsCss" type="text/css">
+		</style>
+
+
+
+
+		<!-- Site CSS -->
+		<link rel="stylesheet" href="./index_files/0d54c237_withFlex_0.min.css"
+			  id="siteGlobalCss" as="style" fetchpriority="low" onload="loadCSS(this)"
+			  type="text/css">
+
+
+
+		<style id="customWidgetStyle" type="text/css">
+			.widget-1f5975 .copyright {
+			    font-size: 13px;
+			    display: flex;
+			    text-align: left;
+			    justify-content: flex-start;
+			}
+		</style>
+		<style id="innerPagesStyle" type="text/css">
+
+		</style>
+
+
+		<style id="additionalGlobalCss" type="text/css">
+		</style>
+
+		<!-- Page CSS -->
+		<link rel="stylesheet" href="./index_files/0d54c237_home_withFlex_0.min.css"
+			  id="homeCssLink" as="style" fetchpriority="low" onload="loadCSS(this)"
+			  type="text/css">
+
+		<style id="pagestyle" type="text/css">
+
+		</style>
+
+		<style id="pagestyleDevice" type="text/css">
+
+		</style>
+
+		<!-- Flex Sections CSS -->
+
+
+
+
+
+		<style id="globalFontSizeStyle" type="text/css">
+			.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.dmMobileBody .m-font-size-13, .dmMobileBody .m-size-13, .dmMobileBody .m-size-13 > font { font-size: 13px !important; }.dmMobileBody .m-font-size-13, .dmMobileBody .m-size-13, .dmMobileBody .m-size-13 > font { font-size: 13px !important; }.dmMobileBody .m-font-size-11, .dmMobileBody .m-size-11, .dmMobileBody .m-size-11 > font { font-size: 11px !important; }.dmMobileBody .m-font-size-11, .dmMobileBody .m-size-11, .dmMobileBody .m-size-11 > font { font-size: 11px !important; }.dmMobileBody .m-font-size-11, .dmMobileBody .m-size-11, .dmMobileBody .m-size-11 > font { font-size: 11px !important; }.dmMobileBody .m-font-size-11, .dmMobileBody .m-size-11, .dmMobileBody .m-size-11 > font { font-size: 11px !important; }.dmMobileBody .m-font-size-11, .dmMobileBody .m-size-11, .dmMobileBody .m-size-11 > font { font-size: 11px !important; }.dmMobileBody .m-font-size-11, .dmMobileBody .m-size-11, .dmMobileBody .m-size-11 > font { font-size: 11px !important; }.dmMobileBody .m-font-size-11, .dmMobileBody .m-size-11, .dmMobileBody .m-size-11 > font { font-size: 11px !important; }.dmMobileBody .m-font-size-11, .dmMobileBody .m-size-11, .dmMobileBody .m-size-11 > font { font-size: 11px !important; }.dmMobileBody .m-font-size-11, .dmMobileBody .m-size-11, .dmMobileBody .m-size-11 > font { font-size: 11px !important; }.dmMobileBody .m-font-size-11, .dmMobileBody .m-size-11, .dmMobileBody .m-size-11 > font { font-size: 11px !important; }.dmMobileBody .m-font-size-11, .dmMobileBody .m-size-11, .dmMobileBody .m-size-11 > font { font-size: 11px !important; }.dmMobileBody .m-font-size-11, .dmMobileBody .m-size-11, .dmMobileBody .m-size-11 > font { font-size: 11px !important; }.dmMobileBody .m-font-size-13, .dmMobileBody .m-size-13, .dmMobileBody .m-size-13 > font { font-size: 13px !important; }.dmMobileBody .m-font-size-13, .dmMobileBody .m-size-13, .dmMobileBody .m-size-13 > font { font-size: 13px !important; }.dmMobileBody .m-font-size-11, .dmMobileBody .m-size-11, .dmMobileBody .m-size-11 > font { font-size: 11px !important; }.dmMobileBody .m-font-size-11, .dmMobileBody .m-size-11, .dmMobileBody .m-size-11 > font { font-size: 11px !important; }.dmMobileBody .m-font-size-11, .dmMobileBody .m-size-11, .dmMobileBody .m-size-11 > font { font-size: 11px !important; }.dmMobileBody .m-font-size-11, .dmMobileBody .m-size-11, .dmMobileBody .m-size-11 > font { font-size: 11px !important; }
+		</style>
+		<style id="pageFontSizeStyle" type="text/css">
+		</style>
+
+		<!-- ========= JS Section ========= -->
+
+		<script>
+			var isWLR = true;
+			
+			    window.customWidgetsFunctions = {};
+			    window.customWidgetsStrings = {};
+			    window.collections = {};
+			    window.currentLanguage = "ENGLISH"
+			    window.isSitePreview = false;
+		</script>
+		<script type="text/javascript">
+			var d_version = "24..13";
+			    var build = "2023-08-17T12_51_39";
+			    window['v' + 'ersion'] = d_version;
+			
+			    function buildEditorParent() {
+			        window.isMultiScreen = true;
+			        window.editorParent = {};
+			        window.previewParent = {};
+			        window.assetsCacheQueryParam = "?version=2023-08-17T12_51_39";
+			        try {
+			            var _p = window.parent;
+			            if (_p && _p.document && _p.$ && _p.$.dmfw) {
+			                window.editorParent = _p;
+			            } else if (_p.isSitePreview) {
+			                window.previewParent = _p;
+			            }
+			        } catch (e) {
+			
+			        }
+			    }
+			
+			    buildEditorParent();
+		</script>
+
+		<!-- Load jQuery -->
+		<script type="text/javascript" id="d-js-jquery" src="./index_files/jquery-3.7.0.min.js"></script>
+		<!-- End Load jQuery -->
+		<!-- Injecting site-wide before scripts -->
+		<!-- End Injecting site-wide to the head -->
+
+
+		<script>
+			var _jquery = window.$;
+			
+			    var jqueryAliases = ['$', 'jquery', 'jQuery'];
+			
+			    jqueryAliases.forEach((alias) => {
+			        Object.defineProperty(window, alias, {
+			            get() {
+			                return _jquery;
+			            },
+			            set() {
+			                console.warn("Trying to over-write the global jquery object!");
+			            }
+			        });
+			    });
+			    window.jQuery.migrateMute = true;
+		</script>
+		<script>
+			$(document).on(
+			        'touchend.temporaryblock click.temporaryblock', '.dmNavWrapper a', function (event) {
+			            event.stopImmediatePropagation();
+			            event.stopPropogation();
+			            event.preventDefault();
+			            return false;
+			        });
+		</script>
+		<script>
+			window.cookiesNotificationMarkupPreview = 'null';
+		</script>
+
+		<!-- HEAD RT JS Include -->
+		<script id="d-js-params">
+			window.INSITE = window.INSITE || {};
+			    window.INSITE.device = "mobile";
+			    window.rtCommonProps = {};
+			    rtCommonProps["rt.ajax.ajaxScriptsFix"] =true;
+			    rtCommonProps["rt.pushnotifs.sslframe.encoded"] = 'aHR0cHM6Ly97c3ViZG9tYWlufS5wdXNoLW5vdGlmcy5jb20=';
+			    rtCommonProps["runtimecollector.url"] = 'https://rtc.multiscreensite.com';
+			    rtCommonProps["performance.tabletPreview.removeScroll"] = 'false';
+			    rtCommonProps["inlineEditGrid.snap"] =true;
+			    rtCommonProps["popup.insite.cookie.ttl"] = '0.5';
+			    rtCommonProps["rt.pushnotifs.force.button"] =true;
+			
+			    rtCommonProps["common.mapbox.token"] = 'pk.eyJ1IjoiZGFubnliMTIzIiwiYSI6ImNqMGljZ256dzAwMDAycXBkdWxwbDgzeXYifQ.Ck5P-0NKPVKAZ6SH98gxxw';
+			    rtCommonProps["common.mapbox.js.override"] =false;
+			    rtCommonProps["common.opencage.token"] = '319e14f32bcce967ba55cd263478796d';
+			    rtCommonProps["common.here.appId"] = 'iYvDjIQ2quyEu0rg0hLo';
+			    rtCommonProps["common.here.appCode"] = '1hcIxLJcbybmtBYTD9Z1UA';
+			    rtCommonProps["isCoverage.test"] =false;
+			    rtCommonProps["ecommerce.ecwid.script"] = 'https://app.multiscreenstore.com/script.js';
+			    rtCommonProps["feature.flag.mappy.kml"] =false;
+			    rtCommonProps["common.resources.dist.cdn"] =true;
+			    rtCommonProps["common.build.dist.folder"] = 'production/3686';
+			    rtCommonProps["common.resources.cdn.host"] = 'https://static.cdn-website.com';
+			    rtCommonProps["common.resources.folder"] = 'https://static.cdn-website.com/mnlt/production/3686';
+			    rtCommonProps["feature.flag.runtime.backgroundSlider.preload.slowly"] =true;
+			    rtCommonProps["feature.flag.runtime.photoswipe.fix"] =true;
+			    rtCommonProps["feature.flag.runtime.newAnimation.enabled"] =true;
+			    rtCommonProps["feature.flag.runtime.newAnimation.respectCssAnimationProps.enabled"] =true;
+			    rtCommonProps["feature.flag.runtime.newAnimation.jitAnimation.enabled"] =true;
+			    rtCommonProps["feature.flag.sites.google.analytics.gtag"] =true;
+			    rtCommonProps["feature.flag.runOnReadyNewTask"] =true;
+			    rtCommonProps["feature.flag.addTargetBlankToExternalLinks"] =true;
+			    rtCommonProps["unsuspendEcwidStoreOnRuntime.enabled"] =true;
+			    rtCommonProps["keyboard.navigation.enabled"] =true;
+			    rtCommonProps["scripts.widgetCount.enabled"] =true;
+			    rtCommonProps["maps.cookiebot.enabled"] =true;
+			
+			    
+			    rtCommonProps['common.mapsProvider'] = 'mapbox';
+			    
+			    rtCommonProps['common.mapsProvider.version'] = '0.52.0';
+			    rtCommonProps['common.geocodeProvider'] = 'here';
+			    rtCommonProps['common.map.defaults.radiusSize'] = '1500';
+			    rtCommonProps['common.map.defaults.radiusBg'] = 'rgba(255, 255, 255, 0.4)';
+			    rtCommonProps['common.map.defaults.strokeColor'] = 'rgba(255, 255, 255, 1)';
+			    rtCommonProps['common.map.defaults.strokeSize'] = '2';
+			    rtCommonProps['server.for.resources'] = '';
+			    rtCommonProps['feature.flag.lazy.widgets'] = true;
+			    rtCommonProps['feature.flag.single.wow'] = false;
+			    rtCommonProps['feature.flag.disallowPopupsInEditor'] = true;
+			    rtCommonProps['feature.flag.mark.anchors'] = true;
+			    rtCommonProps['captcha.public.key'] = '6LffcBsUAAAAAMU-MYacU-6QHY4iDtUEYv_Ppwlz';
+			    rtCommonProps['captcha.invisible.public.key'] = '6LeiWB8UAAAAAHYnVJM7_-7ap6bXCUNGiv7bBPME';
+			    rtCommonProps["images.sizes.small"] =160;
+			    rtCommonProps["images.sizes.mobile"] =640;
+			    rtCommonProps["images.sizes.tablet"] =1280;
+			    rtCommonProps["images.sizes.desktop"] =1920;
+			    rtCommonProps["modules.resources.cdn"] =true;
+			    rtCommonProps["import.images.storage.imageCDN"] = 'https://lirp.cdn-website.com/';
+			    rtCommonProps["ecom.ecwid.categoryPage.modifyLinks"] = true;
+			    rtCommonProps["ecom.ecwidNewUrlStructure.enabled"] = false;
+			    rtCommonProps["ecom.ecwid.fixFacebookLink"] = true;
+			    rtCommonProps["facebook.api.version"] = '7.0';
+			    rtCommonProps["runtime.save.restore.function.bind"] =true;
+			    rtCommonProps["feature.flag.photo.gallery.exact.size"] =false;
+			    rtCommonProps["new.store.fix.ecwid.back.bug"] =true;
+			    rtCommonProps["new.store.accountPage.ecwid.resetPassword.fix"] =false;
+			    rtCommonProps["site.runtime.video.background.ssr"] =true;
+			    rtCommonProps["geocode.search.localize"] =false;
+			    rtCommonProps["facebook.runtime.widgets.upgrade"] =true;
+			    rtCommonProps["feature.flag.runtime.inp.threshold"] =150;
+			    rtCommonProps["feature.flag.runtime.newAnimation.asyncInit.setTimeout.enabled"] =false;
+			    rtCommonProps["feature.flag.performance.logs"] =true;
+			    rtCommonProps["site.contact.form.fix.for.attribute"] =true;
+			    rtCommonProps["site.widget.form.captcha.type"] = 'g_recaptcha';
+			    rtCommonProps["friendly.captcha.site.key"] = 'FCMGSQG9GVNMFS8K';
+			    rtCommonProps["contact.form.date.format.enabled"] = true;
+			    rtCommonProps["filestack.uploadToTempBucket.enabled"] = true;
+			    rtCommonProps["platform.monolith.loginBar.getUserLoggedIn.enabled"] = true;
+		</script>
+		<script src="./index_files/d-js-one-runtime-unified-mobile.min.js" id="d-js-core"></script>
+		<!-- End of HEAD RT JS Include -->
+		<script src="./index_files/d-js-jquery-migrate.min.js"></script>
+		<script>
+			jQuery.DM.updateWidthAndHeight();
+			$(window).resize(function () {
+			    
+			});
+			$(window).bind("orientationchange", function (e) {
+			    $.layoutManager.initLayout();
+			    
+			});
+			$(document).resize(function () {
+			    
+			});
+		</script>
+		<script type="text/javascript" id="d_track_campaign">
+			(function() {
+			 	var campaign = (/utm_campaign=([^&]*)/).exec(window.location.search);
+			
+			 	if (campaign && campaign != null && campaign.length > 1) {
+			 		campaign = campaign[1];
+			 		document.cookie = "_dm_rt_campaign=" + campaign + ";expires=" + new Date().getTime() + 24*60*60*1000 + ";domain=" + window.location.hostname + ";path=/";
+			 	}
+			}());
+		</script>
+		<script type="text/javascript">
+			var _dm_gaq = {};
+			  var _gaq = _gaq || [];
+			  var _dm_insite = [];
+		</script>
+
+
+		<script type="text/javascript" id="d_track_sp">
+			;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
+			p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
+			};p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
+			n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","//d32hwlnfiv2gyn.cloudfront.net/sp-2.0.0-dm-0.1.min.js","snowplow"));
+			window.dmsnowplow  = window.snowplow;
+			
+			dmsnowplow('newTracker', 'cf', 'd32hwlnfiv2gyn.cloudfront.net', { // Initialise a tracker
+			  appId: '0d54c237'
+			});
+			
+			dmsnowplow('trackPageView')
+			$.each(_dm_insite, function(idx, rule) {
+				//('trackStructEvent', 'category','action','label','property','value');
+						// Specifically in popup only the client knows if it is shown or not so we don't always want to track its impression here
+				        // the tracking is in popup.js
+						if (rule.actionName !== "popup") {
+			                dmsnowplow('trackStructEvent', 'insite', 'impression', rule.ruleType, rule.ruleId);
+			            }
+			 			$(document).ready(function(){
+			 				$.DM.events.trigger('event-ruleTriggered', {value: rule})}
+			 			);
+			 		});
+		</script>
+		<div style="display:none;" id="P6iryBW0Wu"></div>
+
+		<!-- photoswipe markup -->
+
+
+
+
+
+
+
+
+
+		<!-- Root element of PhotoSwipe. Must have class pswp. -->
+		<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+			<!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+			<div class="pswp__bg"></div>
+
+			<!-- Slides wrapper with overflow:hidden. -->
+			<div class="pswp__scroll-wrap">
+
+				<!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+				<div class="pswp__container">
+					<div class="pswp__item"></div>
+					<div class="pswp__item"></div>
+					<div class="pswp__item"></div>
+				</div>
+
+				<!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+				<div class="pswp__ui pswp__ui--hidden">
+
+					<div class="pswp__top-bar">
+
+						<!--  Controls are self-explanatory. Order can be changed. -->
+
+						<div class="pswp__counter"></div>
+
+						<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+						<button class="pswp__button pswp__button--share" title="Share"></button>
+
+						<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+						<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+						<!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+						<!-- element will get class pswp__preloader--active when preloader is running -->
+						<div class="pswp__preloader">
+							<div class="pswp__preloader__icn">
+								<div class="pswp__preloader__cut">
+									<div class="pswp__preloader__donut"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+						<div class="pswp__share-tooltip"></div>
+					</div>
+
+					<button class="pswp__button pswp__button--arrow--left"
+							title="Previous (arrow left)">
+					</button>
+
+					<button class="pswp__button pswp__button--arrow--right"
+							title="Next (arrow right)">
+					</button>
+
+					<div class="pswp__caption">
+						<div class="pswp__caption__center"></div>
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+		<div id="fb-root" data-locale="en"></div>
+		<!-- Alias: 0d54c237 -->
+		<div class="dmPopupMask" id="dmPopupMask"></div>
+		<div id="dmPopup" class="dmPopup">
+			<div class="dmPopupCloseWrapper">
+				<div class="dmPopupClose dm-common-icons-close oneIcon" onclick="dmHidePopup(event);"></div>
+			</div>
+			<div class="dmPopupTitle">
+				<span></span> Share by:
+			</div>
+			<div class="data"></div>
+		</div>
+		<script id="d_track_personalization">
+			// Collects client data and updates cookies used by smart sites
+			var expireDays = 365,visitLength = 30 * 60000;
+			$.setCookie("dm_timezone_offset", (new Date()).getTimezoneOffset(), expireDays);
+			function setSmartSiteCookies() {
+				setSmartSiteCookiesInternal("dm_this_page_view","dm_last_page_view","dm_total_visits","dm_last_visit");
+			}
+			$.DM.events.on("afterAjax", setSmartSiteCookies);
+			setSmartSiteCookies();
+		</script>
+		<script type="text/javascript">
+			Parameters.NavigationAreaParams.MoreButtonText = 'MORE';
+			    
+			    Parameters.NavigationAreaParams.LessButtonText = 'LESS';
+			    Parameters.HomeLinkText = 'Home';
+		</script>
+		<script>
+			jQuery(window).on('load', function () {
+			        try {
+			            jQuery.DM.updateIOSHeight();
+			        } catch (e) {
+			        }
+			    });
+		</script>
+		<script>
+			dmAPI.loadScript(
+			        window.rtCommonProps['common.resources.cdn.host'] + '/libs/lozad/1.15.0/lozad.min.js',
+			        function () {
+			            dmAPI.runOnReady('lozadInit', function () {
+			                window.document.querySelectorAll('img.lazy').forEach(function (img) {
+			                    img.addEventListener('load', function (event) {
+			                        var img = event.target;
+			                        img.style.filter = 'blur(0)';
+			                        setTimeout(function () {
+			                            $(img).closest('.imageWidget').addClass('lazyLoaded');
+			                        }, 250)
+			                    });
+			                });
+			                lozad('.lazy', {
+			                    threshold: 0.1,
+			                    loaded: function (element) {
+			                        if (element.getAttribute('data-background-image')) {
+			                            element.style.setProperty(
+			                                'background-image',
+			                                "url('" + element.getAttribute('data-background-image') + "')",
+			                                "important"
+			                            );
+			                        }
+			                    }
+			                }).observe();
+			            });
+			        }
+			    );
+		</script>
+		<!--  End Script tags -->
+
+		<!--  Site Wide Html Markup -->
+		<!--  Site Wide Html Markup -->
+
+
+	</body>
+</html>
